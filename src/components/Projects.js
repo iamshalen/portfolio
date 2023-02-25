@@ -11,7 +11,6 @@ import {
   Image,
   Heading,
   CardFooter,
-  ButtonGroup,
   Badge,
 } from "@chakra-ui/react";
 import tps_site from "../assets/tps_site.png";

@@ -5,7 +5,6 @@ import {
   Container,
   Box,
   HStack,
-  Button,
 } from "@chakra-ui/react";
 
 export default function About() {

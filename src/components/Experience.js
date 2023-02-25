@@ -5,7 +5,6 @@ import {
   Container,
   Box,
   HStack,
-  Button,
   Card,
   CardHeader,
   CardBody,
@@ -16,8 +15,6 @@ import {
   List,
   ListItem,
   ListIcon,
-  OrderedList,
-  UnorderedList,
 } from "@chakra-ui/react";
 import ma from "../assets/ma.jpeg";
 import bs from "../assets/bs.jpeg";

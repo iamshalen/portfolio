@@ -1,50 +1,21 @@
 import {
   Box,
   Flex,
-  Avatar,
-  Link,
-  Text,
   Button,
   Menu,
   MenuButton,
   MenuList,
-  MenuItem,
-  MenuDivider,
-  useDisclosure,
   useColorModeValue,
   Stack,
   useColorMode,
-  Center,
-  Image,
   IconButton,
   useMediaQuery,
 
 } from "@chakra-ui/react";
 import { StarIcon, MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
-import About from "./About";
-import Experience from "./Experience";
-import Projects from "./Projects";
-import Contact from "./Contact";
-
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    _hover={{
-      textDecoration: "none",
-      bg: useColorModeValue("gray.200", "gray.700"),
-    }}
-    href={"#"}
-  >
-    {children}
-  </Link>
-);
-
 
 export default function Nav() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
   const scrollToAbout = () => {
     const aboutSection = document.querySelector("#about");
