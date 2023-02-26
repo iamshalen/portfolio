@@ -306,10 +306,10 @@ export default function Projects() {
           <Text color={"gray.600"} fontSize={"xl"} px={4}>
             Other Projects
           </Text>
-          <SimpleGrid columns={[2, null, 3]} x={4} px={4} spacing={4}>
+          <SimpleGrid columns={[1, 2, 3]} x={4} px={4} spacing={4}>
             {others.map((other) => (
               <Fade bottom>
-                <Card key={other.name} h="40vh">
+                <Card key={other.name} h={[null, "40vh"]}>
                   <Stack>
                     <CardBody align="left">
                       <Heading size="sm">{other.name}</Heading>
