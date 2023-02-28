@@ -25,7 +25,7 @@ export default function Nav() {
 
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
   const scrollToHero = () => {
-    const heroSection = document.querySelector("#hero");
+  const heroSection = document.querySelector("#hero");
     heroSection.scrollIntoView({ behavior: "smooth" });
   };
   const scrollToAbout = () => {

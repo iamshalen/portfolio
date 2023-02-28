@@ -6,9 +6,32 @@ import {
   Box,
   HStack,
   Heading,
+  Center,
 } from "@chakra-ui/react";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
+  const linkedin = () => {
+    window.open(
+                "https://linkedin.com/in/eldoraboo",
+                "_blank",
+                "noreferrer,noopener"
+              );
+  };
+  const github = () => {
+    window.open(
+                "https://github.com/eldoraboo",
+                "_blank",
+                "noreferrer,noopener"
+              );
+  };
+  const email = () => {
+    window.open(
+                "mailto:eldoraboo.mby@gmail.com",
+                "_blank",
+                "noreferrer,noopener"
+              );
+  };
     return (
       <>
         <Container maxW={"3xl"} id="contact">
@@ -37,6 +60,13 @@ export default function Contact() {
               <Text color={"pink.500"} fontWeight={600} fontSize={"lg"} px={4}>
                 eldoraboo.mby@gmail.com
               </Text>
+              <Center>
+                <HStack pt={4} spacing={4}>
+                  <FaLinkedin onClick={linkedin} size={28} />
+                  <FaGithub onClick={github} size={28} />
+                  <FaEnvelope onClick={email} size={28} />
+                </HStack>
+              </Center>
             </Stack>
           </Stack>
         </Container>
