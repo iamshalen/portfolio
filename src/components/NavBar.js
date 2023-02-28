@@ -1,24 +1,33 @@
 import {
-  Box,
   Flex,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
+  Drawer,
+  DrawerBody,
+  DrawerOverlay,
+  DrawerContent,
   useColorModeValue,
   Stack,
   useColorMode,
   IconButton,
   useMediaQuery,
-
+  useDisclosure,
+  HStack,
+  Link,
 } from "@chakra-ui/react";
-import { StarIcon, MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
+import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
+import { TbLetterE, TbLetterB } from "react-icons/tb";
 import { useState } from "react";
 
 export default function Nav() {
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
+  const scrollToHero = () => {
+    const heroSection = document.querySelector("#hero");
+    heroSection.scrollIntoView({ behavior: "smooth" });
+  };
   const scrollToAbout = () => {
     const aboutSection = document.querySelector("#about");
     aboutSection.scrollIntoView({ behavior: "smooth" });
@@ -56,9 +65,12 @@ export default function Nav() {
         justifyContent={"space-between"}
         w="100%"
       >
-        <Box>
-          <StarIcon />
-        </Box>
+        <Link onClick={scrollToHero}>
+          <HStack>
+            <TbLetterE color="#D53F8C" />
+            <TbLetterB color="#D53F8C" />
+          </HStack>
+        </Link>
 
         <Flex alignItems={"center"}>
           <Stack direction={"row"} spacing={7}>
@@ -88,27 +100,30 @@ export default function Nav() {
               <></>
             ) : (
               <>
-                <Menu>
-                  <MenuButton
-                    as={IconButton}
-                    aria-label="Options"
-                    icon={<HamburgerIcon />}
-                  />
-                  <MenuList>
-                    <Button variant="ghost" onClick={scrollToAbout}>
-                      About
-                    </Button>
-                    <Button variant="ghost" onClick={scrollToExperience}>
-                      Experience
-                    </Button>
-                    <Button variant="ghost" onClick={scrollToProjects}>
-                      Projects
-                    </Button>
-                    <Button variant="ghost" onClick={scrollToContact}>
-                      Contact
-                    </Button>
-                  </MenuList>
-                </Menu>
+                <Button
+                  as={IconButton}
+                  icon={<HamburgerIcon />}
+                  onClick={onOpen}
+                ></Button>
+                <Drawer placement="top" onClose={onClose} isOpen={isOpen}>
+                  <DrawerOverlay />
+                  <DrawerContent>
+                    <DrawerBody>
+                      <Button variant="ghost" onClick={scrollToAbout}>
+                        About
+                      </Button>
+                      <Button variant="ghost" onClick={scrollToExperience}>
+                        Experience
+                      </Button>
+                      <Button variant="ghost" onClick={scrollToProjects}>
+                        Projects
+                      </Button>
+                      <Button variant="ghost" onClick={scrollToContact}>
+                        Contact
+                      </Button>
+                    </DrawerBody>
+                  </DrawerContent>
+                </Drawer>
               </>
             )}
           </Stack>

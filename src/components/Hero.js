@@ -11,13 +11,16 @@ import {
 } from "@chakra-ui/react";
 
 export default function Header() {
-  const scrollToAbout = () => {
-    const aboutSection = document.querySelector("#about");
-    aboutSection.scrollIntoView({ behavior: "smooth" });
-  };
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const linkedin = () => {
+    window.open(
+                "https://linkedin.com/in/eldoraboo",
+                "_blank",
+                "noreferrer,noopener"
+              );
   };
   return (
     <>
@@ -28,13 +31,13 @@ export default function Header() {
         />
       </Heading>
 
-      <Container maxW={"3xl"}>
+      <Container maxW={"3xl"} id="hero">
         <Stack
           as={Box}
           textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
           pb={{ base: 20, md: 36 }}
-          pt={{ base: 40, md: 72 }}
+          pt={{ base: 36, md: 52 }}
         >
           <Heading
             fontWeight={600}
@@ -67,9 +70,9 @@ export default function Header() {
               _hover={{
                 bg: "pink.500",
               }}
-              onClick={scrollToAbout}
+              onClick={linkedin}
             >
-              About
+              Let's connect!
             </Button>
             <Button
               variant={"link"}
