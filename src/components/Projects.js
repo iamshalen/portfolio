@@ -267,6 +267,7 @@ export default function Projects() {
     const handleSelected = (value) => {
       setSelected(value);
     };
+    
   return (
     <>
       <Container maxW={"3xl"} id="projects">
