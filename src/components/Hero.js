@@ -33,7 +33,8 @@ export default function Header() {
           as={Box}
           textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}
+          pb={{ base: 20, md: 36 }}
+          pt={{ base: 40, md: 72 }}
         >
           <Heading
             fontWeight={600}

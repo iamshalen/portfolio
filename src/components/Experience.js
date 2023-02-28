@@ -74,9 +74,9 @@ export default function Experience() {
       duration: "Sep'22 - Dec'22",
       badges: [{ name: "Internship", colorScheme: "blue" }],
       listItems: [
-        "Utilized a diverse range of APIs including Postman, Trello, HubSpot, and CarTrack to effectively retrieve and analyze data Designed and implemented automated Python workflows on GitHub, streamlining daily reporting processes and improving efficiency.",
+        "Utilized a diverse range of APIs including Postman, Trello, HubSpot, and CarTrack to effectively retrieve and analyze data",
         "Built a comprehensive business intelligence (BI) system on Metabase, providing valuable insights and enabling data-driven decision-making.",
-        "Performed extensive data cleaning and pre-processing for unstructured data, resulting in a more organized and usable data set.",
+        "Designed and implemented automated Python workflows on GitHub, streamlining daily reporting processes and improving efficiency.",
       ],
     },
     {
