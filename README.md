@@ -5,7 +5,7 @@
 | Sticky Navbar         | ![completed]  |
 | CV Button             | ![inprogress] |
 | Collapsed Menu Drawer | ![inprogress] |
-| Projects Filter       | ![notstarted] |
+| Projects Filter       | ![completed] |
 | LinkedIn Contact      | ![notstarted] |
 | Email Contact         | ![notstarted] |
 | GitHub Contact        | ![notstarted] |

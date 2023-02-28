@@ -6,6 +6,7 @@ import {
   Box,
   HStack,
   Button,
+  ButtonGroup,
   Card,
   CardBody,
   Image,
@@ -13,12 +14,14 @@ import {
   SimpleGrid,
   Badge,
   Link,
+  Center,
 } from "@chakra-ui/react";
 import tps_site from "../assets/tps_site.png";
 import scales_io from "../assets/scales_io.png";
 import auto_labeling from "../assets/auto_labeling.png"
 import pixel_duck from "../assets/pixel_duck.png"
 import { Fade } from "react-reveal";
+import { useState } from "react";
 
 const projects = [
   {
@@ -37,6 +40,7 @@ const projects = [
       },
     ],
     image: tps_site,
+    tags: ["WebDev"],
   },
   {
     name: "Scales.io",
@@ -54,6 +58,7 @@ const projects = [
       },
     ],
     image: scales_io,
+    tags: ["WebDev"],
   },
   {
     name: "Auto-Labeling Pipeline",
@@ -61,7 +66,7 @@ const projects = [
       "Built a highly efficient auto-labeling pipeline for text classification, utilizing cutting-edge technologies such as spaCy, Hugging Face, and Docker. The pipeline significantly reduced manual labeling efforts and improved the accuracy of text classification tasks. Demonstrated expertise in NLP and data engineering by seamlessly integrating various tools and technologies to create a cohesive solution.",
     badges: [
       { text: "Python", colorScheme: "yellow" },
-      { text: "Docker", colorScheme: "black" },
+      { text: "Docker", colorScheme: "blue" },
       { text: "spaCy", colorScheme: "green" },
     ],
     buttons: [
@@ -71,6 +76,7 @@ const projects = [
       },
     ],
     image: auto_labeling,
+    tags: ["Python", "DevOps"],
   },
   {
     name: "Pixel Duck",
@@ -88,6 +94,7 @@ const projects = [
       },
     ],
     image: pixel_duck,
+    tags: ["WebDev"],
   },
 ];
 
@@ -107,6 +114,7 @@ const others = [
         href: "https://github.com/eldoraboo/PairALegal",
       },
     ],
+    tags: ["WebDev"],
   },
   {
     name: "Trello-Postman Client",
@@ -118,6 +126,7 @@ const others = [
         href: "https://github.com/eldoraboo/trello-postman",
       },
     ],
+    tags: ["DataSci"],
   },
   {
     name: "Sencilla Theme",
@@ -138,6 +147,7 @@ const others = [
         href: "https://github.com/eldoraboo/sencilla-theme",
       },
     ],
+    tags: ["WebDev"],
   },
   {
     name: "Deploying Docker",
@@ -156,6 +166,7 @@ const others = [
         href: "https://github.com/eldoraboo/freight",
       },
     ],
+    tags: ["DevOps"],
   },
   {
     name: "Personal Website V1",
@@ -170,13 +181,14 @@ const others = [
         href: "https://eldoraboo.github.io/v1",
       },
     ],
+    tags: ["WebDev"],
   },
   {
     name: "Personal Website V2",
     description: "Version 2 of my personal website.",
     badges: [
       { text: "React.js", colorScheme: "cyan" },
-      { text: "GraphQL", colorScheme: "pink" },
+      { text: "GraphQL", colorScheme: "purple" },
     ],
     buttons: [
       {
@@ -188,6 +200,7 @@ const others = [
         href: "https://github.com/eldoraboo/eldora-gatsby-site",
       },
     ],
+    tags: ["WebDev"],
   },
   {
     name: "Personal Website V3",
@@ -206,6 +219,7 @@ const others = [
         href: "https://github.com/eldoraboo/portfolio-v3",
       },
     ],
+    tags: ["WebDev"],
   },
   {
     name: "Online Resume",
@@ -220,12 +234,14 @@ const others = [
         href: "https://eldoraboo.github.io/",
       },
     ],
+    tags: ["WebDev"],
   },
   {
     name: "Metabase",
     description: "Building a Business Intelligence System with BigQuery.",
     badges: [{ text: "SQL", colorScheme: "gray" }],
     buttons: [],
+    tags: ["DataSci"],
   },
   {
     name: "Trello Workflow",
@@ -233,6 +249,7 @@ const others = [
       "An automated workflow system to extract data from the Trello API using Python 3 & Postman.",
     badges: [{ text: "Python", colorScheme: "yellow" }],
     buttons: [],
+    tags: ["DataSci"],
   },
   {
     name: "Auto Car Report",
@@ -240,10 +257,16 @@ const others = [
       "An automated system built with Flask that generates excel spreadsheet reports.",
     badges: [{ text: "Python", colorScheme: "yellow" }],
     buttons: [],
+    tags: ["DataSci"],
   },
 ];
 
 export default function Projects() {
+    const [selected, setSelected] = useState("All");
+
+    const handleSelected = (value) => {
+      setSelected(value);
+    };
   return (
     <>
       <Container maxW={"3xl"} id="projects">
@@ -306,45 +329,81 @@ export default function Projects() {
           <Text color={"gray.600"} fontSize={"xl"} px={4}>
             Other Projects
           </Text>
-          <SimpleGrid columns={[1, 2, 3]} x={4} px={4} spacing={4}>
-            {others.map((other) => (
-              <Fade bottom>
-                <Card key={other.name} h={[null, "40vh"]}>
-                  <Stack>
-                    <CardBody align="left">
-                      <Heading size="sm">{other.name}</Heading>
+          <Center px={4}>
+            <ButtonGroup>
+              <Button
+                colorScheme={selected === "All" ? "pink" : "gray"}
+                onClick={() => handleSelected("All")}
+              >
+                All
+              </Button>
+              <Button
+                colorScheme={selected === "DevOps" ? "pink" : "gray"}
+                onClick={() => handleSelected("DevOps")}
+              >
+                DevOps
+              </Button>
+              <Button
+                colorScheme={selected === "DataSci" ? "pink" : "gray"}
+                onClick={() => handleSelected("DataSci")}
+              >
+                DataSci
+              </Button>
+              <Button
+                colorScheme={selected === "WebDev" ? "pink" : "gray"}
+                onClick={() => handleSelected("WebDev")}
+              >
+                WebDev
+              </Button>
+            </ButtonGroup>
+          </Center>
+          <SimpleGrid columns={[1, 2, 3]} px={4} spacing={4}>
+            {others
+              .filter((other) => {
+                if (selected === "All") {
+                  return true;
+                } else {
+                  return other.tags.includes(selected);
+                }
+              })
+              .map((other) => (
+                <Fade bottom>
+                  <Card key={other.name}>
+                    <Stack>
+                      <CardBody align="left" h={[null, "40vh"]}>
+                        <Heading size="sm">{other.name}</Heading>
 
-                      <Text fontSize="sm" py={2}>
-                        {other.description}
-                      </Text>
+                        <Text fontSize="sm" py={2}>
+                          {other.description}
+                        </Text>
 
-                      <HStack spacing={2}>
-                        {other.buttons.map((button) => (
-                          <Link
-                            key={button.text}
-                            href={button.href}
-                            color="pink.400"
-                          >
-                            {button.text}
-                          </Link>
-                        ))}
-                      </HStack>
-                      <HStack flexWrap="wrap" pt={4} spacing={2}>
-                        {other.badges.map((badge) => (
-                          <Badge
-                            my={2}
-                            key={badge.text}
-                            colorScheme={badge.colorScheme}
-                          >
-                            {badge.text}
-                          </Badge>
-                        ))}
-                      </HStack>
-                    </CardBody>
-                  </Stack>
-                </Card>
-              </Fade>
-            ))}
+                        <HStack spacing={2}>
+                          {other.buttons.map((button) => (
+                            <Link
+                              key={button.text}
+                              href={button.href}
+                              color="pink.400"
+                            >
+                              {button.text}
+                            </Link>
+                          ))}
+                        </HStack>
+                        <HStack flexWrap="wrap" pt={4} spacing={2}>
+                          {other.badges.map((badge) => (
+                            <Badge
+                              my={2}
+                              key={badge.text}
+                              colorScheme={badge.colorScheme}
+                            >
+                              {badge.text}
+                            </Badge>
+                          ))}
+                        </HStack>
+                      </CardBody>
+                    </Stack>
+                  </Card>
+                </Fade>
+              ))}
           </SimpleGrid>
         </Stack>
       </Container>
