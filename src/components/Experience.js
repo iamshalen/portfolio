@@ -61,13 +61,16 @@ const experience = [
   {
     image: bs,
     company: "Beansprout",
-    position: "Software Engineer",
+    position: "Data Analytics",
     duration: "Mar'23 - May'23",
     badges: [
       { name: "Internship", colorScheme: "blue" },
-      { name: "Pending Start Date", colorScheme: "red" },
+      { name: "In Progress", colorScheme: "orange" },
     ],
-    listItems: [],
+    listItems: [
+      "Performed association rule mining and text classification analysis to understand user path exploration.",
+      "Worked with digital analytics software like Google Analytics and Amplitude to track site activity."
+    ],
     tags: "Work",
   },
   {
@@ -75,10 +78,7 @@ const experience = [
     company: "Urban Redevelopment Authority",
     position: "Data Engineer",
     duration: "Jan'23 - Mar'23",
-    badges: [
-      { name: "Internship", colorScheme: "blue" },
-      { name: "In Progress", colorScheme: "orange" },
-    ],
+    badges: [{ name: "Internship", colorScheme: "blue" }],
     listItems: [
       "Piloted the integration of a optimization modeling tool (Python) into URA's existing systems with Docker and Node.js.",
       "Performed data analytics on movement of traffic and implemented NLP (Natural Language Processing) on entity categorization of feedback.",
@@ -217,47 +217,56 @@ export default function Experience() {
             </ButtonGroup>
           </Center>
           <Stack px={4} spacing={4}>
-            {experience.filter(exp => exp.tags.includes(selected)).map((exp) => (
-              <Fade bottom>
-                <Card key={exp.company} size="sm">
-                  <CardHeader>
-                    <Flex justifyContent="space-between">
-                      <HStack>
-                        <Image src={exp.image} h={50} />
-                        <Box px={2} align="left">
-                          <Text fontWeight={600}>{exp.company}</Text>
-                          <Text>{exp.position}</Text>
-                        </Box>
-                      </HStack>
-                      <Text px={2} fontWeight={300}>
-                        {exp.duration}
-                      </Text>
-                    </Flex>
-                  </CardHeader>
-                  <CardBody>
-                    <Flex>
-                      <List align="left" spacing={3}>
-                        {exp.listItems.map((item, index) => (
-                          <ListItem key={index}>
-                            <ListIcon as={ChevronRightIcon} color="pink.500" />
-                            {item}
-                          </ListItem>
+            {experience
+              .filter((exp) => exp.tags.includes(selected))
+              .map((exp) => (
+                <Fade bottom>
+                  <Card key={exp.company} size="sm">
+                    <CardHeader>
+                      <Flex justifyContent="space-between">
+                        <HStack>
+                          <Image src={exp.image} h={50} />
+                          <Box px={2} align="left">
+                            <Text fontWeight={600}>{exp.company}</Text>
+                            <Text>{exp.position}</Text>
+                          </Box>
+                        </HStack>
+                        <Text px={2} fontWeight={300}>
+                          {exp.duration}
+                        </Text>
+                      </Flex>
+                    </CardHeader>
+                    <CardBody>
+                      <Flex>
+                        <List align="left" spacing={3}>
+                          {exp.listItems.map((item, index) => (
+                            <ListItem key={index}>
+                              <ListIcon
+                                boxSize={6}
+                                as={ChevronRightIcon}
+                                color="pink.500"
+                              />
+                              {item}
+                            </ListItem>
+                          ))}
+                        </List>
+                      </Flex>
+                    </CardBody>
+                    <CardFooter>
+                      <HStack spacing={2}>
+                        {exp.badges.map((badge) => (
+                          <Badge
+                            key={badge.name}
+                            colorScheme={badge.colorScheme}
+                          >
+                            {badge.name}
+                          </Badge>
                         ))}
-                      </List>
-                    </Flex>
-                  </CardBody>
-                  <CardFooter>
-                    <HStack spacing={2}>
-                      {exp.badges.map((badge) => (
-                        <Badge key={badge.name} colorScheme={badge.colorScheme}>
-                          {badge.name}
-                        </Badge>
-                      ))}
-                    </HStack>
-                  </CardFooter>
-                </Card>
-              </Fade>
-            ))}
+                      </HStack>
+                    </CardFooter>
+                  </Card>
+                </Fade>
+              ))}
           </Stack>
         </Stack>
       </Container>

@@ -16,14 +16,72 @@ import {
   Link,
   Center,
 } from "@chakra-ui/react";
+import music from "../assets/music.png";
 import tps_site from "../assets/tps_site.png";
 import scales_io from "../assets/scales_io.png";
-import auto_labeling from "../assets/auto_labeling.png"
-import pixel_duck from "../assets/pixel_duck.png"
+import sharenstay from "../assets/sharenstay.png";
+import construcshare from "../assets/construcshare.png"
+import auto_labeling from "../assets/auto_labeling.png";
+import pixel_duck from "../assets/pixel_duck.png";
 import { Fade } from "react-reveal";
 import { useState } from "react";
 
 const projects = [
+  {
+    name: "E-Commerce Simulation Model",
+    description: "E-Commerce Simulation for Logistics, Marketing and Payments.",
+    badges: [
+      { text: "React.js", colorScheme: "cyan" },
+      { text: "Node.js", colorScheme: "green" },
+      { text: "Chakra UI", colorScheme: "teal" },
+      { text: "Docker", colorScheme: "blue" },
+    ],
+    buttons: [
+      { text: "Live Site", href: "https://construcshare.netlify.app/" },
+      {
+        text: "GitHub Repo",
+        href: "https://github.com/eldoraboo/construcshare",
+      },
+    ],
+    image: construcshare,
+    tags: ["WebDev"],
+  },
+  {
+    name: "Music Prediction Analysis",
+    description:
+      "Music Popularity Prediction Using Machine Learning Techniques.",
+    badges: [
+      { text: "Python", colorScheme: "yellow" },
+      { text: "R", colorScheme: "blue" },
+    ],
+    buttons: [
+      { text: "Live Site", href: "https://st4248-ay2223-b1.github.io/" },
+      {
+        text: "GitHub Repo",
+        href: "https://github.com/ST4248-AY2223-B1",
+      },
+    ],
+    image: music,
+    tags: ["DataSci"],
+  },
+  {
+    name: "ShareNStay",
+    description:
+      "An online booking and rental platform, modeled after Airbnb, that incorporates SQL commands to optimize database management and user experience.",
+    badges: [
+      { text: "Python", colorScheme: "yellow" },
+      { text: "SQL", colorScheme: "gray" },
+    ],
+    buttons: [
+      { text: "Live Site", href: "https://sharenstay.onrender.com/" },
+      {
+        text: "GitHub Repo",
+        href: "https://github.com/eldoraboo/it2002-sharenstay",
+      },
+    ],
+    image: sharenstay,
+    tags: ["DataSci"],
+  },
   {
     name: "TPS Construction Website",
     description:
@@ -331,7 +389,7 @@ export default function Projects() {
             Other Projects
           </Text>
           <Center px={4}>
-            <ButtonGroup>
+            <ButtonGroup variant="outline">
               <Button
                 colorScheme={selected === "All" ? "pink" : "gray"}
                 onClick={() => handleSelected("All")}
