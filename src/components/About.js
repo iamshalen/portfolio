@@ -6,8 +6,10 @@ import {
   Box,
   HStack,
 } from "@chakra-ui/react";
+import { useToast, Button } from '@chakra-ui/react';
 
 export default function About() {
+    const toast = useToast();
     return (
       <>
         <Container maxW={"3xl"} id="about">
@@ -32,6 +34,19 @@ export default function About() {
               forward to gaining internship opportunities to broaden my
               horizons.
             </Text>
+            <Button
+              onClick={() =>
+                toast({
+                  title: "Well, hello there!",
+                  description: "Thanks for visiting my page.",
+                  status: "success",
+                  duration: 9000,
+                  isClosable: true,
+                })
+              }
+            >
+              Say hi to me!
+            </Button>
           </Stack>
         </Container>
       </>
