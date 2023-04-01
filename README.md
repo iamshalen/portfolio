@@ -72,10 +72,10 @@ To edit other projects or items, update the `OtherProjects.md` file with the fol
 You can choose from 10 different colours provided by Chakra UI. Modify the `color` variable in the `App.js` file located in the `src` folder.
 
 ```
-  // Available Colours:
-  // blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
+// Available Colours:
+// blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
 
-  const color = "pink";
+const color = "pink";
 ```
 
 ## Customizing Design
