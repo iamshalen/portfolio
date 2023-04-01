@@ -19,6 +19,14 @@ yarn build
 
 After running `yarn start`, your website should be available at `http://localhost:3000`.
 
+## Site Name
+
+To edit the site name, go to `public/index.html` and change the `<title>`
+
+```
+<title>Site Name</title>
+```
+
 ## Editing Content
 
 To edit the content on your website, refer to the markdown files located in the `public/content` folder.
@@ -41,7 +49,7 @@ Write your "About" section here.
 Write your "Contact" section here.
 - LinkedIn: https://linkedin.com/in/username
 - GitHub: https://github.com/username
-- Email: mailto:username@gmail.com
+- Email: username@gmail.com
 
 ## Logo
 - EB
@@ -77,7 +85,7 @@ To edit your projects, update the `Projects.md` file with the following format:
 
 ```
 ## Project Name
-- Description
+Description
 - ![image_name](../assets/image_name.png)
 - Tags: WebDev
 - Badges:
@@ -92,7 +100,7 @@ To edit other projects or items, update the `OtherProjects.md` file with the fol
 
 ```
 ## Project Name
-- Description
+Description
 - Tags: WebDev
 - Badges:
   - BadgeContent [badge_colour]
