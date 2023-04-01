@@ -23,6 +23,38 @@ After running `yarn start`, your website should be available at `http://localhos
 
 To edit the content on your website, refer to the markdown files located in the `public/content` folder.
 
+### Profile.md
+
+```
+## Site Name
+- Your Name or Site Title Here
+
+## Header
+- Hi, my name is ______. 
+- I'm a ______.
+- Short Description Here.
+
+## About
+Write your "About" section here.
+
+## Contact
+Write your "Contact" section here.
+- LinkedIn: https://linkedin.com/in/username
+- GitHub: https://github.com/username
+- Email: mailto:username@gmail.com
+
+## Logo
+- EB
+```
+
+### ExperienceTags.md and ProjectsTags.md
+
+```
+Category 1
+Category 2
+Category 3
+```
+
 ### Experience.md
 
 To edit your work experience, update the `Experience.md` file with the following format:
@@ -67,6 +99,7 @@ To edit other projects or items, update the `OtherProjects.md` file with the fol
 - Buttons:
   - ButtonContent [button_link]
 ```
+
 ## Colour Theme
 
 You can choose from 10 different colours provided by Chakra UI. Modify the `color` variable in the `App.js` file located in the `src` folder.
@@ -85,3 +118,5 @@ You can customize the design of your website by modifying the `theme.js` file lo
 ## Usage
 
 You may use this template for your own portfolio as long as you give me proper credit by linking back to my profile.
+
+For more details on hosting this site, you may refer to [A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)

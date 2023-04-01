@@ -20,11 +20,13 @@ import { Fade } from "react-reveal";
 import { useState } from "react";
 import ProjectsArray from "./ProjectsArray";
 import OtherProjectsArray from "./OtherProjectsArray";
+import TagsArray from "./TagsArray";
 
 export default function Projects({ color }) {
     const projects = ProjectsArray();
     const others = OtherProjectsArray();
-
+    const options = TagsArray("ProjectsTags");
+    
     const [selected, setSelected] = useState("All");
 
     const handleSelected = (value) => {
@@ -103,24 +105,14 @@ export default function Projects({ color }) {
               >
                 All
               </Button>
-              <Button
-                colorScheme={selected === "DevOps" ? `${color}` : "gray"}
-                onClick={() => handleSelected("DevOps")}
-              >
-                DevOps
-              </Button>
-              <Button
-                colorScheme={selected === "DataSci" ? `${color}` : "gray"}
-                onClick={() => handleSelected("DataSci")}
-              >
-                DataSci
-              </Button>
-              <Button
-                colorScheme={selected === "WebDev" ? `${color}` : "gray"}
-                onClick={() => handleSelected("WebDev")}
-              >
-                WebDev
-              </Button>
+              {options.map((option) => (
+                <Button
+                  colorScheme={selected === option.value ? `${color}` : "gray"}
+                  onClick={() => handleSelected(option.value)}
+                >
+                  {option.value}
+                </Button>
+              ))}
             </ButtonGroup>
           </Center>
           <SimpleGrid columns={[1, 2, 3]} px={4} spacing={4}>

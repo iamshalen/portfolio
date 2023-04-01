@@ -9,28 +9,18 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import ProfileArray from "./ProfileArray";
 
 export default function Contact({ color }) {
+  const profile = ProfileArray();
   const linkedin = () => {
-    window.open(
-      "https://linkedin.com/in/eldoraboo",
-      "_blank",
-      "noreferrer,noopener"
-    );
+    window.open(`${profile.linkedin}`, "_blank", "noreferrer,noopener");
   };
   const github = () => {
-    window.open(
-      "https://github.com/eldoraboo",
-      "_blank",
-      "noreferrer,noopener"
-    );
+    window.open(`${profile.github}`, "_blank", "noreferrer,noopener");
   };
   const email = () => {
-    window.open(
-      "mailto:eldoraboo.mby@gmail.com",
-      "_blank",
-      "noreferrer,noopener"
-    );
+    window.open(`mailto:${profile.email}`, "_blank", "noreferrer,noopener");
   };
   return (
     <>
@@ -53,12 +43,10 @@ export default function Contact({ color }) {
           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
             <Heading fontSize={"3xl"}>Let's stay in touch!</Heading>
             <Text color={"gray.600"} fontSize={"xl"} px={4}>
-              I'm currently looking for new opportunities. If you wish to engage
-              me for a project or role, you can reach me via my inbox. I will
-              get back to you as soon as I can!
+              {profile.contact}
             </Text>
             <Text color={`${color}.500`} fontWeight={600} fontSize={"lg"} px={4}>
-              eldoraboo.mby@gmail.com
+              {profile.email}
             </Text>
             <Center>
               <HStack pt={4} spacing={4}>

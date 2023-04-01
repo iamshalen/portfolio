@@ -9,15 +9,17 @@ import {
   useColorModeValue,
   createIcon,
 } from "@chakra-ui/react";
+import ProfileArray from "./ProfileArray";
 
 export default function Header({ color }) {
+  const profile = ProfileArray();
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
   const linkedin = () => {
     window.open(
-                "https://linkedin.com/in/eldoraboo",
+                `${profile.linkedin}`,
                 "_blank",
                 "noreferrer,noopener"
               );
@@ -44,16 +46,16 @@ export default function Header({ color }) {
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
             lineHeight={"110%"}
           >
-            Hi, my name is Eldora. <br />
+            {profile.headerName} <br />
             <Text as={"span"} color={`${color}.400`}>
-              I'm a software engineer.
+              {profile.headerRole}
             </Text>
           </Heading>
           <Text
             color={"gray.500"}
             fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
           >
-            I build solutions for the web.
+            {profile.headerDesc}
           </Text>
           <Stack
             direction={"column"}

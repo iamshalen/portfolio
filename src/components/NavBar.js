@@ -15,10 +15,12 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { TbLetterE, TbLetterB } from "react-icons/tb";
 import { useState } from "react";
+import ProfileArray from "./ProfileArray";
+const TbIcons = require("react-icons/tb");
 
 export default function Nav({ color }) {
+  const profile = ProfileArray();
   const colors = {
   "blue": "#3182CE", 
   "cyan": "#00B5D8", 
@@ -62,6 +64,14 @@ export default function Nav({ color }) {
 
   window.addEventListener("scroll", changeScroll);
 
+  const TbLetterComponents = [];
+
+  for (let i = 0; i < profile.logo.length; i++) {
+    const letter = profile.logo[i];
+    const component = TbIcons[`TbLetter${letter}`];
+    TbLetterComponents.push(component);
+  }
+
   return (
     <>
       <Flex
@@ -78,8 +88,9 @@ export default function Nav({ color }) {
       >
         <Link onClick={scrollToHero}>
           <HStack>
-            <TbLetterE color={colors[color]} />
-            <TbLetterB color={colors[color]} />
+            {TbLetterComponents.map((Component, index) => (
+              <Component key={index} color={colors[color]} />
+            ))}
           </HStack>
         </Link>
 

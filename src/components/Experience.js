@@ -23,9 +23,11 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Fade } from "react-reveal";
 import { useState } from "react";
 import ExperienceArray from "./ExperienceArray";
+import TagsArray from "./TagsArray";
 
 export default function Experience({ color }) {
   const experience = ExperienceArray();
+  const options = TagsArray("ExperienceTags");
 
   const [selected, setSelected] = useState("Work");
 
@@ -52,24 +54,14 @@ export default function Experience({ color }) {
           </Stack>
           <Center px={4}>
             <ButtonGroup variant="outline">
-              <Button
-                colorScheme={selected === "Work" ? `${color}` : "gray"}
-                onClick={() => handleSelected("Work")}
-              >
-                Work
-              </Button>
-              <Button
-                colorScheme={selected === "Teaching" ? `${color}` : "gray"}
-                onClick={() => handleSelected("Teaching")}
-              >
-                Teaching
-              </Button>
-              <Button
-                colorScheme={selected === "Other" ? `${color}` : "gray"}
-                onClick={() => handleSelected("Other")}
-              >
-                Other
-              </Button>
+              {options.map((option) => (
+                <Button
+                  colorScheme={selected === option.value ? `${color}` : "gray"}
+                  onClick={() => handleSelected(option.value)}
+                >
+                  {option.value}
+                </Button>
+              ))}
             </ButtonGroup>
           </Center>
           <Stack px={4} spacing={4}>

@@ -6,10 +6,10 @@ import {
   Box,
   HStack,
 } from "@chakra-ui/react";
-import { useToast, Button } from '@chakra-ui/react';
+import ProfileArray from "./ProfileArray";
 
 export default function About({ color }) {
-    const toast = useToast();
+  const profile = ProfileArray();
     return (
       <>
         <Container maxW={"3xl"} id="about">
@@ -29,24 +29,8 @@ export default function About({ color }) {
               <Divider orientation="horizontal" />
             </Stack>
             <Text color={"gray.600"} fontSize={"xl"} px={4}>
-              Hello! My name is Eldora. My interests are in Full Stack
-              Development and Data Science. I am a dedicated individual looking
-              forward to gaining internship opportunities to broaden my
-              horizons.
+              {profile.about}
             </Text>
-            <Button
-              onClick={() =>
-                toast({
-                  title: "Well, hello there!",
-                  description: "Thanks for visiting my page.",
-                  status: "success",
-                  duration: 9000,
-                  isClosable: true,
-                })
-              }
-            >
-              Say hi to me!
-            </Button>
           </Stack>
         </Container>
       </>
