@@ -19,16 +19,6 @@ import {
   ButtonGroup,
   Center,
 } from "@chakra-ui/react";
-import ma from "../assets/ma.jpeg";
-import bs from "../assets/bs.jpeg";
-import ura from "../assets/ura.png";
-import gg from "../assets/gg.png";
-import la from "../assets/la.jpeg";
-import ri from "../assets/ri.png";
-import ro from "../assets/ro.png";
-import sd from "../assets/sd.jpeg";
-import cs from "../assets/cs.jpeg";
-import nk from "../assets/nk.jpeg";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Fade } from "react-reveal";
 import { useState } from "react";
