@@ -72,6 +72,6 @@ To edit other projects or items, update the `OtherProjects.md` file with the fol
 
 You can customize the design of your website by modifying the `theme.js` file located in the `src` folder. Refer to the Chakra UI documentation for more information on how to customize your theme.
 
-## License
+## Usage
 
-This portfolio is licensed under the MIT License. See the LICENSE file for more information.
+You may use this template for your own portfolio as long as you give me proper credit by linking back to my profile.
