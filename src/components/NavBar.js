@@ -18,7 +18,18 @@ import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { TbLetterE, TbLetterB } from "react-icons/tb";
 import { useState } from "react";
 
-export default function Nav() {
+export default function Nav({ color }) {
+  const colors = {
+  "blue": "#3182CE", 
+  "cyan": "#00B5D8", 
+  "gray": "#718096", 
+  "green": "#38A169", 
+  "orange": "#DD6B20", 
+  "pink": "#D53F8C", 
+  "purple": "#805AD5", 
+  "red": "#E53E3E", 
+  "teal": "#319795", 
+  "yellow": "#D69E2E"};
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -67,8 +78,8 @@ export default function Nav() {
       >
         <Link onClick={scrollToHero}>
           <HStack>
-            <TbLetterE color="#D53F8C" />
-            <TbLetterB color="#D53F8C" />
+            <TbLetterE color={colors[color]} />
+            <TbLetterB color={colors[color]} />
           </HStack>
         </Link>
 

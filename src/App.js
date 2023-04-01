@@ -13,10 +13,10 @@ function App() {
   // blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
 
   const color = "pink";
-  
+
   return (
     <>
-      <Nav />
+      <Nav color={color} />
       <Header color={color} />
       <About color={color} />
       <Experience color={color} />
