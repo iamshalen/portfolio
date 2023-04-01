@@ -10,7 +10,7 @@ import {
   createIcon,
 } from "@chakra-ui/react";
 
-export default function Header() {
+export default function Header({ color }) {
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
@@ -45,7 +45,7 @@ export default function Header() {
             lineHeight={"110%"}
           >
             Hi, my name is Eldora. <br />
-            <Text as={"span"} color={"pink.400"}>
+            <Text as={"span"} color={`${color}.400`}>
               I'm a software engineer.
             </Text>
           </Heading>
@@ -63,12 +63,12 @@ export default function Header() {
             position={"relative"}
           >
             <Button
-              colorScheme={"pink"}
-              bg={"pink.400"}
+              colorScheme={color}
+              bg={`${color}.400`}
               rounded={"full"}
               px={6}
               _hover={{
-                bg: "pink.500",
+                bg: `${color}.500`,
               }}
               onClick={linkedin}
             >

@@ -21,7 +21,7 @@ import { useState } from "react";
 import ProjectsArray from "./ProjectsArray";
 import OtherProjectsArray from "./OtherProjectsArray";
 
-export default function Projects() {
+export default function Projects({ color }) {
     const projects = ProjectsArray();
     const others = OtherProjectsArray();
 
@@ -42,7 +42,7 @@ export default function Projects() {
         >
           <Stack align="center" direction="row" p={4}>
             <HStack mx={4}>
-              <Text color="pink.400" fontWeight={800}>
+              <Text color={`${color}.400`} fontWeight={800}>
                 03
               </Text>
               <Text fontWeight={800}>Projects</Text>
@@ -70,7 +70,9 @@ export default function Projects() {
                       <HStack py={2}>
                         {project.buttons.map((button) => (
                           <a key={button.text} href={button.href}>
-                            <Button color="pink.400">{button.text}</Button>
+                            <Button color={`${color}.400`}>
+                              {button.text}
+                            </Button>
                           </a>
                         ))}
                       </HStack>
@@ -96,25 +98,25 @@ export default function Projects() {
           <Center px={4}>
             <ButtonGroup variant="outline">
               <Button
-                colorScheme={selected === "All" ? "pink" : "gray"}
+                colorScheme={selected === "All" ? `${color}` : "gray"}
                 onClick={() => handleSelected("All")}
               >
                 All
               </Button>
               <Button
-                colorScheme={selected === "DevOps" ? "pink" : "gray"}
+                colorScheme={selected === "DevOps" ? `${color}` : "gray"}
                 onClick={() => handleSelected("DevOps")}
               >
                 DevOps
               </Button>
               <Button
-                colorScheme={selected === "DataSci" ? "pink" : "gray"}
+                colorScheme={selected === "DataSci" ? `${color}` : "gray"}
                 onClick={() => handleSelected("DataSci")}
               >
                 DataSci
               </Button>
               <Button
-                colorScheme={selected === "WebDev" ? "pink" : "gray"}
+                colorScheme={selected === "WebDev" ? `${color}` : "gray"}
                 onClick={() => handleSelected("WebDev")}
               >
                 WebDev
@@ -146,7 +148,7 @@ export default function Projects() {
                             <Link
                               key={button.text}
                               href={button.href}
-                              color="pink.400"
+                              color={`${color}.400`}
                             >
                               {button.text}
                             </Link>

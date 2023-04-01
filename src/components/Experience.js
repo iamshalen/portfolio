@@ -24,7 +24,7 @@ import { Fade } from "react-reveal";
 import { useState } from "react";
 import ExperienceArray from "./ExperienceArray";
 
-export default function Experience() {
+export default function Experience({ color }) {
   const experience = ExperienceArray();
 
   const [selected, setSelected] = useState("Work");
@@ -43,7 +43,7 @@ export default function Experience() {
         >
           <Stack align="center" direction="row" px={4}>
             <HStack mx={4}>
-              <Text color="pink.400" fontWeight={800}>
+              <Text color={`${color}.400`} fontWeight={800}>
                 02
               </Text>
               <Text fontWeight={800}>Experience</Text>
@@ -53,19 +53,19 @@ export default function Experience() {
           <Center px={4}>
             <ButtonGroup variant="outline">
               <Button
-                colorScheme={selected === "Work" ? "pink" : "gray"}
+                colorScheme={selected === "Work" ? `${color}` : "gray"}
                 onClick={() => handleSelected("Work")}
               >
                 Work
               </Button>
               <Button
-                colorScheme={selected === "Teaching" ? "pink" : "gray"}
+                colorScheme={selected === "Teaching" ? `${color}` : "gray"}
                 onClick={() => handleSelected("Teaching")}
               >
                 Teaching
               </Button>
               <Button
-                colorScheme={selected === "Other" ? "pink" : "gray"}
+                colorScheme={selected === "Other" ? `${color}` : "gray"}
                 onClick={() => handleSelected("Other")}
               >
                 Other
@@ -100,7 +100,7 @@ export default function Experience() {
                               <ListIcon
                                 boxSize={6}
                                 as={ChevronRightIcon}
-                                color="pink.500"
+                                color={`${color}.500`}
                               />
                               {item}
                             </ListItem>

@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import { useToast, Button } from '@chakra-ui/react';
 
-export default function About() {
+export default function About({ color }) {
     const toast = useToast();
     return (
       <>
@@ -21,7 +21,7 @@ export default function About() {
           >
             <Stack align="center" direction="row" px={4}>
               <HStack mx={4}>
-                <Text color="pink.400" fontWeight={800}>
+                <Text color={`${color}.400`} fontWeight={800}>
                   01
                 </Text>
                 <Text fontWeight={800}>About</Text>

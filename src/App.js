@@ -9,15 +9,19 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  // Available Colours:
+  // blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
+
+  const color = "pink";
   
   return (
     <>
       <Nav />
-      <Header />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <Header color={color} />
+      <About color={color} />
+      <Experience color={color} />
+      <Projects color={color} />
+      <Contact color={color} />
       <Footer />
     </>
   );
