@@ -15,7 +15,6 @@ yarn start
 
 # Build the static files
 yarn build
-
 ```
 
 After running `yarn start`, your website should be available at `http://localhost:3000`.
