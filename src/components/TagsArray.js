@@ -31,7 +31,7 @@ const TagsArray = (file) => {
       .catch((error) => {
         console.error("Error fetching markdown content:", error);
       });
-  }, []);
+  }, [file]);
 
   return Tags;
 };
