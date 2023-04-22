@@ -13,7 +13,9 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("https://strapi.eldora.me/api/profile");
+      const response = await fetch(
+        "https://strapi-eldora.onrender.com/api/profile"
+      );
       const data = await response.json();
       setColor(data.data.attributes.themeColour);
     }
