@@ -1,3 +1,14 @@
+## Portfolio Template built with React.js and Chakra UI
+This portfolio template has 7 forks, 7 stars, and 25 clones on GitHub as of 26 April 2023.
+- ![portable](../assets/portable.png)
+- Tags: WebDev
+- Badges:
+  - React.js [cyan]
+  - Chakra UI [teal]
+- Buttons:
+  - Live Site [https://portable-portfolio.netlify.app/]
+  - GitHub Repo [https://github.com/eldoraboo/portable-portfolio]
+
 ## E-Commerce Simulation Model
 E-Commerce Simulation for Logistics, Marketing and Payments.
 - ![construcshare](../assets/construcshare.png)
