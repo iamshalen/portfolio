@@ -72,17 +72,6 @@
   - Oversee and train students in preparation of coding & robotics competitions (in collaboration with DSTA, DSO National Laboratories) that held at a national level.
   - Provided support for students outside of curriculum hours for them to embark on personal projects like a landing page for their school's CCA (Xinmin Secondary).
 
-## Construcshare
-- *Front-End Developer* | Feb'23 - Present
-- ![cs](../assets/cs.jpeg)
-- Tags: Other
-- Badges:
-  - Project [green]
-  - In Progress [orange]
-- List Items:
-  - Developing an e-commerce simulation model for construction materials.
-  - Working on an interface to run, tweak and visualize the model.
-
 ## Google Developer Student Clubs
 - *Software Engineer* | Sep'22 - Present
 - ![gg](../assets/gg.png)
@@ -94,6 +83,16 @@
   - Designed and developed an intuitive admin portal with a user-friendly interface, providing an efficient way to manage course materials and users.
   - Adopted front-end frameworks such as React.js and Chakra UI to create a highly responsive and engaging user interface.
   - Engineered a full-stack API with Node.js and GraphQL, providing robust and scalable solutions for delivering online education.
+
+## Construcshare
+- *Front-End Developer* | Feb'23 - Apr'23
+- ![cs](../assets/cs.jpeg)
+- Tags: Other
+- Badges:
+  - Project [green]
+- List Items:
+  - Developing an e-commerce simulation model for construction materials.
+  - Working on an interface to run, tweak and visualize the model.
 
 ## NUS Statistics & Data Science Society
 - *Vice-Director of Marketing* | Dec'21 - May'22
