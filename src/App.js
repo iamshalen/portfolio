@@ -10,20 +10,20 @@ import Footer from "./components/Footer";
 import { Spinner, Flex } from "@chakra-ui/react";
 
 function App() {
-  const [color, setColor] = useState("");
+  const color = "pink";
   const [spinner, setSpinner] = useState(true);
 
-  useEffect(() => {
-    async function fetchData() {
-      const response = await fetch(
-        "https://strapi-eldora.onrender.com/api/profile"
-      );
-      const data = await response.json();
-      setColor(data.data.attributes.themeColour);
-      setTimeout(() => setSpinner(false), 1000); // set spinner to false after 10 seconds
-    }
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     const response = await fetch(
+  //       "https://strapi-eldora.onrender.com/api/profile"
+  //     );
+  //     const data = await response.json();
+  //     setColor(data.data.attributes.themeColour);
+  //     setTimeout(() => setSpinner(false), 1000); // set spinner to false after 10 seconds
+  //   }
+  //   fetchData();
+  // }, []);
 
   return (
     <>
