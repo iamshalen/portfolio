@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/NavBar";
 import Header from "./components/Hero";
@@ -13,17 +13,7 @@ function App() {
   const color = "pink";
   const [spinner, setSpinner] = useState(true);
 
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     const response = await fetch(
-  //       "https://strapi-eldora.onrender.com/api/profile"
-  //     );
-  //     const data = await response.json();
-  //     setColor(data.data.attributes.themeColour);
-  //     setTimeout(() => setSpinner(false), 1000); // set spinner to false after 10 seconds
-  //   }
-  //   fetchData();
-  // }, []);
+  setTimeout(() => setSpinner(false), 1000); // set spinner to false after 10 seconds
 
   return (
     <>
