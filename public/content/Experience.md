@@ -1,34 +1,30 @@
-## Nika.eco
-- *Full-Stack Developer* | Aug'23 - Dec'23
-- ![nk](../assets/nk.jpeg)
-- Tags: Work
-- Badges:
-  - Internship [blue]
-  - Pending Start Date [red]
-- List Items:
-
 ## Moody's Analytics
-- *Software Engineer* | Jun'23 - Aug'23
+
+- _Software Engineer_ | Jun'23 - Aug'23
 - ![ma](../assets/ma.jpeg)
 - Tags: Work
 - Badges:
   - Internship [blue]
-  - Pending Start Date [red]
 - List Items:
+  - Worked in an advisory role, primarily focusing on risk modeling, and assessing risk profiles for prominent banks in the APAC region.
+  - Conducted single-factor analysis and multi-factor analysis to develop a robust model for analyzing banking transactions.
+  - Managed and processed over 2 million rows of transactional data through an efficient ETL pipeline.
+  - Utilized R and Python to execute advanced statistical models and perform data-cleaning tasks.
 
 ## Beansprout
-- *Data Analytics* | Mar'23 - May'23
+
+- _Data Analytics_ | Mar'23 - May'23
 - ![bs](../assets/bs.jpeg)
 - Tags: Work
 - Badges:
   - Internship [blue]
-  - In Progress [orange]
 - List Items:
-  - Performed association rule mining and text classification analysis to understand user path exploration.
-  - Worked with digital analytics software like Google Analytics and Amplitude to track site activity.
+  - Developed and implemented a user-based recommendation engine from scratch, providing personalized article recommendations to users.
+  - Established a comprehensive dashboard to track and visualize user activity, effectively monitoring key metrics and trends.
 
 ## Urban Redevelopment Authority
-- *Data Engineer* | Jan'23 - Mar'23
+
+- _Data Engineer_ | Jan'23 - Mar'23
 - ![ura](../assets/ura.png)
 - Tags: Work
 - Badges:
@@ -39,7 +35,8 @@
   - Employed port forwarding to securely expose the necessary ports for communication between the front-end and the optimization model.
 
 ## Lumens Auto
-- *Data Scientist* | Sep'22 - Dec'22
+
+- _Data Scientist_ | Sep'22 - Dec'22
 - ![la](../assets/la.jpeg)
 - Tags: Work
 - Badges:
@@ -50,7 +47,8 @@
   - Implemented automated ETL workflows with Python and BigQuery SQL, saving up to 730 man-hours annually.
 
 ## RIMM Sustainability
-- *Data Scientist* | May'22 - Jul'22
+
+- _Data Scientist_ | May'22 - Jul'22
 - ![ri](../assets/ri.png)
 - Tags: Work
 - Badges:
@@ -61,7 +59,8 @@
   - Came up with a production ready interface by the end of internship period and presented the product to the CTO directly.
 
 ## Roboto Coding Academy
-- *Technology Educator* | Nov'20 - Present
+
+- _Technology Educator_ | Nov'20 - Present
 - ![ro](../assets/ro.png)
 - Tags: Teaching
 - Badges:
@@ -73,7 +72,8 @@
   - Provided support for students outside of curriculum hours for them to embark on personal projects like a landing page for their school's CCA (Xinmin Secondary).
 
 ## Google Developer Student Clubs
-- *Software Engineer* | Sep'22 - Present
+
+- _Software Engineer_ | Sep'22 - Present
 - ![gg](../assets/gg.png)
 - Tags: Other
 - Badges:
@@ -85,7 +85,8 @@
   - Engineered a full-stack API with Node.js and GraphQL, providing robust and scalable solutions for delivering online education.
 
 ## Construcshare
-- *Front-End Developer* | Feb'23 - Apr'23
+
+- _Front-End Developer_ | Feb'23 - Apr'23
 - ![cs](../assets/cs.jpeg)
 - Tags: Other
 - Badges:
@@ -95,7 +96,8 @@
   - Working on an interface to run, tweak and visualize the model.
 
 ## NUS Statistics & Data Science Society
-- *Vice-Director of Marketing* | Dec'21 - May'22
+
+- _Vice-Director of Marketing_ | Dec'21 - May'22
 - ![sd](../assets/sd.jpeg)
 - Tags: Other
 - Badges:
