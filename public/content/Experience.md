@@ -9,7 +9,7 @@
 - List Items:
 
 ## Moody's Analytics
-- *Software Engineer* | Jun'23 - Aug'23
+- *Banking Analyst* | Jun'23 - Aug'23
 - ![ma](../assets/ma.jpeg)
 - Tags: Work
 - Badges:
@@ -21,7 +21,7 @@
   - Utilized R and Python to execute advanced statistical models and perform data-cleaning tasks.
 
 ## Beansprout
-- *Data Analytics* | Mar'23 - May'23
+- *Data Analyst* | Mar'23 - May'23
 - ![bs](../assets/bs.jpeg)
 - Tags: Work
 - Badges:
