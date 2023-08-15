@@ -1,5 +1,5 @@
 ## Portfolio Template built with React.js and Chakra UI
-This portfolio template has 9 forks, 8 stars, and 42 clones on GitHub as of 28 April 2023.
+This portfolio template has 56 forks and 42 stars on GitHub as of 15 August 2023.
 - ![portable](../assets/portable.png)
 - Tags: WebDev
 - Badges:
