@@ -1,6 +1,15 @@
-## Moody's Analytics
+## Freelance
+- *Coding Tutor & Full Stack Developer* | Nov'21 - Present
+- ![ma](../assets/duck.png)
+- Tags: Work, Teaching
+- Badges:
+  - Full-Time [pink]
+  - Education [yellow]
+  - In Progress [orange]
+- List Items:
 
-- _Software Engineer_ | Jun'23 - Aug'23
+## Moody's Analytics
+- *Software Engineer* | Jun'23 - Aug'23
 - ![ma](../assets/ma.jpeg)
 - Tags: Work
 - Badges:
@@ -12,8 +21,7 @@
   - Utilized R and Python to execute advanced statistical models and perform data-cleaning tasks.
 
 ## Beansprout
-
-- _Data Analytics_ | Mar'23 - May'23
+- *Data Analytics* | Mar'23 - May'23
 - ![bs](../assets/bs.jpeg)
 - Tags: Work
 - Badges:
@@ -23,8 +31,7 @@
   - Established a comprehensive dashboard to track and visualize user activity, effectively monitoring key metrics and trends.
 
 ## Urban Redevelopment Authority
-
-- _Data Engineer_ | Jan'23 - Mar'23
+- *Data Engineer* | Jan'23 - Mar'23
 - ![ura](../assets/ura.png)
 - Tags: Work
 - Badges:
@@ -35,8 +42,7 @@
   - Employed port forwarding to securely expose the necessary ports for communication between the front-end and the optimization model.
 
 ## Lumens Auto
-
-- _Data Scientist_ | Sep'22 - Dec'22
+- *Data Scientist* | Sep'22 - Dec'22
 - ![la](../assets/la.jpeg)
 - Tags: Work
 - Badges:
@@ -47,8 +53,7 @@
   - Implemented automated ETL workflows with Python and BigQuery SQL, saving up to 730 man-hours annually.
 
 ## RIMM Sustainability
-
-- _Data Scientist_ | May'22 - Jul'22
+- *Data Scientist* | May'22 - Jul'22
 - ![ri](../assets/ri.png)
 - Tags: Work
 - Badges:
@@ -59,8 +64,7 @@
   - Came up with a production ready interface by the end of internship period and presented the product to the CTO directly.
 
 ## Roboto Coding Academy
-
-- _Technology Educator_ | Nov'20 - Present
+- *Technology Educator* | Nov'20 - Jul'23
 - ![ro](../assets/ro.png)
 - Tags: Teaching
 - Badges:
@@ -72,8 +76,7 @@
   - Provided support for students outside of curriculum hours for them to embark on personal projects like a landing page for their school's CCA (Xinmin Secondary).
 
 ## Google Developer Student Clubs
-
-- _Software Engineer_ | Sep'22 - Present
+- *Software Engineer* | Sep'22 - Present
 - ![gg](../assets/gg.png)
 - Tags: Other
 - Badges:
@@ -85,8 +88,7 @@
   - Engineered a full-stack API with Node.js and GraphQL, providing robust and scalable solutions for delivering online education.
 
 ## Construcshare
-
-- _Front-End Developer_ | Feb'23 - Apr'23
+- *Front-End Developer* | Feb'23 - Apr'23
 - ![cs](../assets/cs.jpeg)
 - Tags: Other
 - Badges:
@@ -96,8 +98,7 @@
   - Working on an interface to run, tweak and visualize the model.
 
 ## NUS Statistics & Data Science Society
-
-- _Vice-Director of Marketing_ | Dec'21 - May'22
+- *Vice-Director of Marketing* | Dec'21 - May'22
 - ![sd](../assets/sd.jpeg)
 - Tags: Other
 - Badges:
