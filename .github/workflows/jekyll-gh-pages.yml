@@ -38,12 +38,10 @@ jobs:
         
       - name: Build the app
         run: npm run build
+        
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_TOKEN }} 
+          publish_dir: ./build 
 
-      - name: email.cre
-        run: git config --global user.email "iamshalen@gmail.com"
-        
-      - name: uname.cre
-        run: git config --global user.name "iamshalen"
-        
-      - name: Run the app
-        run: npm run deploy
