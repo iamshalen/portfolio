@@ -35,22 +35,9 @@ jobs:
 
       - name: Install GH pages
         run: npm install gh-pages --legacy-peer-deps --save-dev
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+        
       - name: Build the app
         run: npm run build
         
       - name: Run the app
         run: npm run deploy
-        
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
