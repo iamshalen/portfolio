@@ -41,7 +41,9 @@ jobs:
 
       - name: email.cre
         run: git config --global user.email "iamshalen@gmail.com"
+        
       - name: uname.cre
         run: git config --global user.name "iamshalen"
+        
       - name: Run the app
-        run: npm run deploy
+        run: npm run gh-pages -d build
