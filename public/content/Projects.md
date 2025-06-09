@@ -1,6 +1,6 @@
 ## Portfolio Template built with React.js and Chakra UI
 This portfolio template has 56 forks and 42 stars on GitHub as of 15 August 2023.
-- ![portable](../assets/portable.png)
+- ![portable](/portfolio/assets/portable.png)
 - Tags: WebDev
 - Badges:
   - React.js [cyan]
@@ -11,7 +11,7 @@ This portfolio template has 56 forks and 42 stars on GitHub as of 15 August 2023
 
 ## E-Commerce Simulation Model
 E-Commerce Simulation for Logistics, Marketing and Payments.
-- ![construcshare](../assets/construcshare.png)
+- ![construcshare](/portfolio/assets/construcshare.png)
 - Tags: WebDev
 - Badges:
   - React.js [cyan]
@@ -24,7 +24,7 @@ E-Commerce Simulation for Logistics, Marketing and Payments.
 
 ## Music Prediction Analysis
 Music Popularity Prediction Using Machine Learning Techniques.
-- ![music](../assets/music.png)
+- ![music](/portfolio/assets/music.png)
 - Tags: DataSci
 - Badges:
   - Python [yellow]
@@ -35,7 +35,7 @@ Music Popularity Prediction Using Machine Learning Techniques.
 
 ## ShareNStay
 An online booking and rental platform, modeled after Airbnb, that incorporates SQL commands to optimize database management and user experience.
-- ![sharenstay](../assets/sharenstay.png)
+- ![sharenstay](/portfolio/assets/sharenstay.png)
 - Tags: DataSci
 - Badges:
   - Python [yellow]
@@ -46,7 +46,7 @@ An online booking and rental platform, modeled after Airbnb, that incorporates S
 
 ## TPS Construction Website
 Built a landing page for a construction firm to present them professionally. The first prototype was built in under 2 days.
-- ![tps_site](../assets/tps_site.png)
+- ![tps_site](/portfolio/assets/tps_site.png)
 - Tags: WebDev
 - Badges:
   - React.js [cyan]
@@ -57,7 +57,7 @@ Built a landing page for a construction firm to present them professionally. The
 
 ## Scales.io
 Developed a custom piano key visualizer for music scales, providing a user-friendly tool for musicians to practice and improve their skills. Utilized React.js and Chakra UI to create an interactive and visually appealing interface. The tool received positive feedback from users.
-- ![scales_io](../assets/scales_io.png)
+- ![scales_io](/portfolio/assets/scales_io.png)
 - Tags: WebDev
 - Badges:
   - React.js [cyan]
@@ -68,7 +68,7 @@ Developed a custom piano key visualizer for music scales, providing a user-frien
 
 ## Auto-Labeling Pipeline
 Built a highly efficient auto-labeling pipeline for text classification, utilizing cutting-edge technologies such as spaCy, Hugging Face, and Docker. The pipeline significantly reduced manual labeling efforts and improved the accuracy of text classification tasks. Demonstrated expertise in NLP and data engineering by seamlessly integrating various tools and technologies to create a cohesive solution.
-- ![auto_labeling](../assets/auto_labeling.png)
+- ![auto_labeling](/portfolio/assets/auto_labeling.png)
 - Tags: Python, DevOps
 - Badges:
   - Python [yellow]
@@ -79,7 +79,7 @@ Built a highly efficient auto-labeling pipeline for text classification, utilizi
 
 ## Pixel Duck
 Designed and programmed a web app that generates unique pixel ducks based on user-specified or randomized color inputs. Allows users to copy the generated duck in SVG format. Technologies used include HTML, CSS, React.js, and Chakra UI.
-- ![pixel_duck](../assets/pixel_duck.png)
+- ![pixel_duck](/portfolio/assets/pixel_duck.png)
 - Tags: WebDev
 - Badges:
   - React.js [cyan]
