@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import { Spinner, Flex } from "@chakra-ui/react";
 
 function App() {
-  const color = "pink";
+  const color = "cyan";
   const [spinner, setSpinner] = useState(true);
 
   setTimeout(() => setSpinner(false), 2000); // set spinner to false after 10 seconds
