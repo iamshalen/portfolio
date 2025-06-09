@@ -13,7 +13,7 @@ function App() {
   const color = "pink";
   const [spinner, setSpinner] = useState(true);
 
-  setTimeout(() => setSpinner(false), 1000); // set spinner to false after 10 seconds
+  setTimeout(() => setSpinner(false), 2000); // set spinner to false after 10 seconds
 
   return (
     <>
