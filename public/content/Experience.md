@@ -1,6 +1,6 @@
 ## Freelance
 - *Coding Tutor & Full Stack Developer* | Nov'21 - Present
-- ![ma](../assets/duck.png)
+- ![ma](/portfolio/assets/duck.png)
 - Tags: Work, Teaching
 - Badges:
   - Full-Time [pink]
@@ -10,7 +10,7 @@
 
 ## Moody's Analytics
 - *Banking Analyst* | Jun'23 - Aug'23
-- ![ma](../assets/ma.jpeg)
+- ![ma](/portfolio/assets/ma.jpeg)
 - Tags: Work
 - Badges:
   - Internship [blue]
@@ -22,7 +22,7 @@
 
 ## Beansprout
 - *Data Analyst* | Mar'23 - May'23
-- ![bs](../assets/bs.jpeg)
+- ![bs](/portfolio/assets/bs.jpeg)
 - Tags: Work
 - Badges:
   - Internship [blue]
@@ -32,7 +32,7 @@
 
 ## Urban Redevelopment Authority
 - *Data Engineer* | Jan'23 - Mar'23
-- ![ura](../assets/ura.png)
+- ![ura](/portfolio/assets/ura.png)
 - Tags: Work
 - Badges:
   - Internship [blue]
@@ -43,7 +43,7 @@
 
 ## Lumens Auto
 - *Data Scientist* | Sep'22 - Dec'22
-- ![la](../assets/la.jpeg)
+- ![la](/portfolio/assets/la.jpeg)
 - Tags: Work
 - Badges:
   - Internship [blue]
@@ -54,7 +54,7 @@
 
 ## RIMM Sustainability
 - *Data Scientist* | May'22 - Jul'22
-- ![ri](../assets/ri.png)
+- ![ri](/portfolio/assets/ri.png)
 - Tags: Work
 - Badges:
   - Internship [blue]
@@ -65,7 +65,7 @@
 
 ## Roboto Coding Academy
 - *Technology Educator* | Nov'20 - Jul'23
-- ![ro](../assets/ro.png)
+- ![ro](/portfolio/assets/ro.png)
 - Tags: Teaching
 - Badges:
   - Education [yellow]
@@ -77,7 +77,7 @@
 
 ## Google Developer Student Clubs
 - *Software Engineer* | Sep'22 - Present
-- ![gg](../assets/gg.png)
+- ![gg](/portfolio/assets/gg.png)
 - Tags: Other
 - Badges:
   - Project [green]
@@ -89,7 +89,7 @@
 
 ## Construcshare
 - *Front-End Developer* | Feb'23 - Apr'23
-- ![cs](../assets/cs.jpeg)
+- ![cs](/portfolio/assets/cs.jpeg)
 - Tags: Other
 - Badges:
   - Project [green]
@@ -99,7 +99,7 @@
 
 ## NUS Statistics & Data Science Society
 - *Vice-Director of Marketing* | Dec'21 - May'22
-- ![sd](../assets/sd.jpeg)
+- ![sd](/portfolio/assets/sd.jpeg)
 - Tags: Other
 - Badges:
   - Project [green]
