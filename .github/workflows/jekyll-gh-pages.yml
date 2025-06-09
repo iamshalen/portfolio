@@ -38,11 +38,6 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Copy assets and contents folders into build output
-      run: |
-        cp -r ./public/assets ./build/assets
-        cp -r ./public/content ./build/content
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
