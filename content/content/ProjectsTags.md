@@ -1,3 +1,0 @@
-DevOps
-DataSci
-WebDev
