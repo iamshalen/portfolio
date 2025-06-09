@@ -1,16 +1,16 @@
 ## Header
-- Hi, my name is Eldora.
-- I'm a software engineer.
-- I build solutions for the web.
+- Hi, my name is Shalen!
+- I'm a multi-faceted Cloud Architect and Engineer
+- I architect and deploy a plethora of solutions applying as much as I possibly can. 
 
 ## About
-Hello! My name is Eldora. My interests are in Full Stack Development and Data Science. I am a dedicated individual looking forward to gaining internship opportunities to broaden my horizons.
+Hello! My name is Shalen. I specialize in Cloud Architecture and Engineering, with a passion for building scalable, secure, and efficient systems. My expertise spans across designing, deploying, and optimizing cloud infrastructures for diverse business needs. I am committed to continuous learning and enjoy collaborating on projects that push the boundaries of technology.
 
 ## Contact
-I'm currently looking for new opportunities. If you wish to engage me for a project or role, you can reach me via my inbox. I will get back to you as soon as I can!
-- LinkedIn: https://linkedin.com/in/eldoraboo
-- GitHub: https://github.com/eldoraboo
-- Email: eldoraboo.mby@gmail.com
+I'm always open to new opportunities and collaborations. If you'd like to discuss a project, role, or partnership, please feel free to reach out via any socials below! I will get back to you as soon as I can!
+- LinkedIn: https://linkedin.com/in/shalennaidoo
+- GitHub: https://github.com/iamshalen
+- Email: iamshalen@gmail.com
 
 ## Logo
-- EB
+- SN
