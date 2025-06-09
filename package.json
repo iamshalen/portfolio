@@ -1,6 +1,6 @@
 {
+  "homepage": "https://iamshalen.github.io/portfolio/",
   "name": "portfolio",
-  "homepage": "https://iamshalen.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
