@@ -1,6 +1,6 @@
 ## Freelance
 - *Masters Research* | Sep'24 - Present
-- ![ma](/portfolio/assets/duck.png)
+- ![ma](/portfolio/assets/bs.webp)
 - Tags: Teaching, Studying
 - Badges:
   - Full-Time [pink]
@@ -29,7 +29,7 @@
 
 ## Computer Science Dept. Advisory Board Mmember
 - *Data Analyst* | Jun'23 - Present
-- ![bs](/portfolio/assets/bs.jpeg)
+- ![bs](/portfolio/assets/bs.webp)
 - Tags: Work
 - Badges:
   - Advisory Board Role [blue]
@@ -79,10 +79,9 @@
   - Driving customer communication during critical events and production deployments.
 
 
-
 ## CSIR(Council for Scientific and Industrial Research)
 - *Data Scientist* | Jun'18 - Jul'18
-- ![ri](/portfolio/assets/ri.png)
+- ![ri](/portfolio/assets/ri.jpg)
 - Tags: Work
 - Badges:
   - Internship [blue]
@@ -94,7 +93,7 @@
 
 ## BSc. Hons. Computer Science
 - *University of Zululandr* | Feb'19 - Nov'19
-- ![ro](/portfolio/assets/ro.png)
+- ![ro](/portfolio/assets/bs.webp)
 - Tags: Education
 - Badges:
   - Education [yellow]
@@ -106,7 +105,7 @@
 
 ## BSc. Computer Science and Mathematics
 - *Software Engineer* | Feb'15 - Nov'18
-- ![gg](/portfolio/assets/gg.png)
+- ![gg](/portfolio/assets/bs.webp)
 - Tags: Education
 - Badges:
   - Completed [green]
