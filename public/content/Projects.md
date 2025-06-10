@@ -1,8 +1,5 @@
 ## AI-Powered Book Summary Twitter Bot with AWS and OpenAI (2023)
-The AI-Powered Book Summary Twitter Bot uses AWS Lambda, S3, Systems Manager Parameter Store, and CloudWatch, with OpenAI's API to generate book summaries. The Lambda function fetches a random book title from S3 and
-generates a summary using OpenAI's API, then crafts a Tweet
-and posts it on Twitter. This project automates information
-dissemination and promotes literature globally.
+The AI-Powered Book Summary Twitter Bot uses AWS Lambda, S3, Systems Manager Parameter Store, and CloudWatch, with OpenAI's API to generate book summaries. The Lambda function fetches a random book title from S3 and generates a summary using OpenAI's API, then crafts a Tweet and posts it on Twitter. This project automates information dissemination and promotes literature globally.
 - ![portable](/portfolio/assets/portable.png)
 - Tags: AWS
 - Badges:
@@ -12,9 +9,7 @@ dissemination and promotes literature globally.
   - GitHub Repo [https://twitter.com/shalen_dev]
 
 ## Automated Docker deployments on ECS with CodePipeline
-For updates to my portfolio site I created a pipeline using AWS native services to help streamline deployments. The solution comprised of using ECS, ECR, CodeBuild and
-CodePipeline AWS services for automated code changes to a
-React front-end.
+For updates to my portfolio site I created a pipeline using AWS native services to help streamline deployments. The solution comprised of using ECS, ECR, CodeBuild and CodePipeline AWS services for automated code changes to a React front-end.
 - ![construcshare](/portfolio/assets/construcshare.png)
 - Tags: DevOps
 - Badges:
@@ -24,10 +19,7 @@ React front-end.
   - GitHub Repo [https://github.com/eldoraboo/construcshare]
 
 ## Secure, efficient and responsive CI/CD
-This DevOps based project utilizes CodeCommit, CodeBuild,
-and CodePipeline to create a secure and automated CI/CD
-pipeline for Terraform code deployment using AWS native
-tooling. An S3 bucket and DynamoDB table are used for consistent and accurate state management. A CloudWatch Event rule triggers the pipeline automatically on Terraform code updates, resulting in a fully automated, scalable, and secure deployment of Terraform code.
+This DevOps based project utilizes CodeCommit, CodeBuild and CodePipeline to create a secure and automated CI/CD pipeline for Terraform code deployment using AWS native tooling. An S3 bucket and DynamoDB table are used for consistent and accurate state management. A CloudWatch Event rule triggers the pipeline automatically on Terraform code updates, resulting in a fully automated, scalable, and secure deployment of Terraform code.
 - ![music](/portfolio/assets/music.png)
 - Tags: DevOps
 - Badges:
@@ -37,8 +29,7 @@ tooling. An S3 bucket and DynamoDB table are used for consistent and accurate st
   - GitHub Repo [https://github.com/ST4248-AY2223-B1]
 
 ## PocketIncubator
-Android application as part of my Final Year Undergraduate project conceptualizing the idea of an
-Incubator in your Pocket - designed to be a platform to help connect small startups with Incubators and/or possible Investors. This was also developed using Java and AndroidStudio as well as Firebase for the DB storage.
+Android application as part of my Final Year Undergraduate project conceptualizing the idea of an Incubator in your Pocket - designed to be a platform to help connect small startups with Incubators and/or possible Investors. This was also developed using Java and AndroidStudio as well as Firebase for the DB storage.
 - ![sharenstay](/portfolio/assets/sharenstay.png)
 - Tags: MobileDev
 - Badges:
