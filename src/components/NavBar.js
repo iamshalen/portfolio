@@ -150,6 +150,9 @@ export default function Nav({ color }) {
                       <Button variant="ghost" onClick={scrollToContact}>
                         Contact
                       </Button>
+                      <Button variant="ghost" onClick={openResume}>
+                        CV/Resume
+                      </Button>
                     </DrawerBody>
                   </DrawerContent>
                 </Drawer>
