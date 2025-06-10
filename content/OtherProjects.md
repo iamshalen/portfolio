@@ -1,6 +1,5 @@
 ## ISC² Certified in Cybersecurity (CC) (2023 - 2026)
-https://www.credly.com/badges/08f6ff71-feda-4262-8d23-
-ed13e97a6ce7
+https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
 - Tags: CyberSec
 - Badges:
   - ISC2 [red]
@@ -13,8 +12,7 @@ https://www.credly.com/badges/9f9b43b5-eb21-467a-a72f-06bfa3515b0c
   - Specialty [purple]
 
 ## AWS Certified Security - Speciality (2022 - 2025)
-https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-
-9b39b95cd2a0
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 - Tags: CyberSec
 - Badges:
   - AWS [yellow]
@@ -28,8 +26,7 @@ https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
   - Specialty [purple]
 
 ## AWS Certified Solutions Architect – Professional (2021 - 2024)
-https://www.credly.com/badges/a30b95fd-6cef-473c-a016-
-1f61c31ca0f3
+https://www.credly.com/badges/a30b95fd-6cef-473c-a016-1f61c31ca0f3
 - Tags: AWS
 - Badges:
   - Specialty [purple]
@@ -63,3 +60,4 @@ Version 2 of my personal website.
 - Tags: DataSci
 - Badges:
   - Python [cyan]
+  
