@@ -139,7 +139,7 @@
 - ![isc2](/portfolio/assets/isc2.png)
 - Tags: Certs
 - Badges:
-  - Completed [green]
+  - Valid [green]
   - CyberSecurity [orange]
 - List Items:
   - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
@@ -149,9 +149,8 @@
 - ![aws-certified-security-specialty](/portfolio/assets/aws-certified-security-specialty.png)
 - Tags: Certs
 - Badges:
-  - Completed [green]
-  - Cloud Security [cyan]
-  - Specialty Cert [purple]
+  - Valid [green]
+  - Cloud Security [purple]
 - List Items:
   - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
 
@@ -161,20 +160,28 @@
 - ![aws-certified-data-analytics-specialty](/portfolio/assets/aws-certified-data-analytics-specialty.png)
 - Tags: Certs
 - Badges:
-  - Completed [green]
-  - Cloud Data Analytics [cyan]
-  - Specialty Cert [purple]
+  - Valid [green]
+  - Cloud Data Analytics [pink]
 - List Items:
   - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+
+## Datacamp Intermediate Python for Data Science
+- *2019 - 2023* | 
+- ![datacamp](/portfolio/assets/datacamp.png)
+- Tags: Certs
+- Badges:
+  - Valid [green]
+  - Python [cyan]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 
 ## AWS Certified Solutions Architect – Professional 
 - *2021 - 2024* | 
 - ![aws-certified-solutions-architect-professional](/portfolio/assets/aws-certified-solutions-architect-professional.png)
 - Tags: Certs
 - Badges:
-  - Renewal-In-Progress [orange]
-  - Professional Cert [teal]
-  - Cloud Architecture [green]
+  - Renewal-Underway [orange]
+  - Solution Arch [teal]
 - List Items:
   - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
 
@@ -183,8 +190,7 @@
 - ![aws-certified-devops-engineer-professional](/portfolio/assets/aws-certified-devops-engineer-professional.png)
 - Tags: Certs
 - Badges:
-  - Completed - Expired [teal]
-  - Professional Cert [oran]
+  - Completed-Expired [pink]
   - DevOps [green]
 - List Items:
   - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
@@ -194,7 +200,7 @@
 - ![aws-certified-developer-associate](/portfolio/assets/aws-certified-developer-associate.png)
 - Tags: Certs
 - Badges:
-  - Completed - Expired [teal]
+  - Completed-Expired [pink]
   - DevOps [green]
 - List Items:
   - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
@@ -204,8 +210,8 @@
 - ![aws-certified-solutions-architect-associate](/portfolio/assets/aws-certified-solutions-architect-associate.png)
 - Tags: Certs
 - Badges:
-  - Completed - Expired [teal]
-  - Cloud Architecture [orange]
+  - Completed-Expired [pink]
+  - Solutions Arch [orange]
 - List Items:
   - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 
@@ -214,17 +220,7 @@
 - ![cyberops_associate](/portfolio/assets/cyberops_associate.png)
 - Tags: Certs
 - Badges:
-  - Completed - Expired [teal]
-  - CyberSecurity [purple]
-- List Items:
-  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
-
-## Datacamp Intermediate Python for Data Science
-- *2019 - 2023* | 
-- ![datacamp](/portfolio/assets/datacamp.png)
-- Tags: Certs
-- Badges:
-  - Completed [green]
-  - Python [purple]
+  - Completed - Expired [pink]
+  - CyberSecurity [green]
 - List Items:
   - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
