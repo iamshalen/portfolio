@@ -18,7 +18,6 @@ https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
   - AWS [yellow]
   - Specialty [purple]
 
-
 ## AWS Certified Advanced Networking - Specialty (2022 - 2025)
 https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 - Tags: AWS
@@ -60,4 +59,4 @@ Version 2 of my personal website.
 - Tags: DataSci
 - Badges:
   - Python [cyan]
-  
+
