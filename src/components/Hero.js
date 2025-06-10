@@ -73,7 +73,7 @@ export default function Header({ color }) {
               }}
               onClick={openResume}
             >
-              My Resume
+               View my CV/Resume
             </Button>
             <Button
               variant={"link"}
@@ -81,7 +81,7 @@ export default function Header({ color }) {
               size={"sm"}
               onClick={linkedin}
             >
-              Lets get in touch!
+              Pop me a message on LinkedIn!
             </Button>
             <Box>
               <Icon
