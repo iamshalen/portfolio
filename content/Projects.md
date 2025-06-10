@@ -4,7 +4,7 @@ The AI-Powered Book Summary Twitter Bot uses AWS Lambda, S3, Systems Manager Par
 - Tags: AWS
 - Badges:
   - OpenAI [cyan]
-  - AWS: Lambda, S3, CloudWatch and Parameter Store [teal]
+  - AWS [teal]
 - Buttons:
   - GitHub Repo [https://twitter.com/shalen_dev]
 
@@ -13,7 +13,7 @@ For updates to my portfolio site I created a pipeline using AWS native services 
 - ![construcshare](/portfolio/assets/construcshare.png)
 - Tags: DevOps
 - Badges:
-  - AWS: ECS, ECR, CodeBuild and Code Pipeline [teal]
+  - AWS [teal]
   - Docker [blue]
 - Buttons:
   - GitHub Repo [https://github.com/eldoraboo/construcshare]
