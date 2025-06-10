@@ -48,7 +48,7 @@ https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 - Badges:
   - Associate [blue]
 
-## Cisco Certified Network Associate CyberOps (CCNA CyberOps) (2019-2023)
+## Cisco Certified Network Associate CyberOps (CCNA CyberOps)(2019-2023)
 https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 - Tags: CyberSec
 - Badges:
