@@ -1,95 +1,61 @@
-## PairALegal
-Chatbot paired with a website depository filled with succinct profiles of lawyers offering their services.
-- Tags: WebDev
+## ISC² Certified in Cybersecurity (CC) (2023-2026)
+https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+- Tags: CyberSec
 - Badges:
-  - HTML [red]
-  - CSS [blue]
-- Buttons:
-  - Live Site [https://eldoraboo.github.io/PairALegal/]
-  - GitHub Repo [https://github.com/eldoraboo/PairALegal]
+  - ISC2 [red]
 
-## Trello-Postman Client
-Trello API optimised as a collection for Postman.
+## AWS Certified Data Analytics – Specialty (2022-2025)
+https://www.credly.com/badges/9f9b43b5-eb21-467a-a72f-06bfa3515b0c1
 - Tags: DataSci
 - Badges:
-  - Postman [orange]
-- Buttons:
-  - GitHub Repo [https://github.com/eldoraboo/trello-postman]
+  - AWS [orange]
+  - Specialty [purple]
 
-## Sencilla Theme
-Minimalistic, mobile-friendly one-page resume built with HTML, CSS, and JavaScript.
-- Tags: WebDev
+## AWS Certified Security - Speciality (2022-2025)
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+- Tags: CyberSec
 - Badges:
-  - HTML [red]
-  - CSS [blue]
-  - JavaScript [yellow]
-- Buttons:
-  - Live Site [https://eldoraboo.github.io/sencilla-theme/]
-  - GitHub Repo [https://github.com/eldoraboo/sencilla-theme]
+  - AWS [yellow]
+  - Specialty [purple]
 
-## Deploying Docker
-A blog documenting how to deploy Docker containers.
-- Tags: DevOps
+## AWS Certified Advanced Networking - Specialty (2022-2025)
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+- Tags: AWS
 - Badges:
-  - Markdown [purple]
-  - Docker [blue]
-- Buttons:
-  - Live Site [https://freight.gatsbyjs.io/]
-  - GitHub Repo [https://github.com/eldoraboo/freight]
+  - Specialty [purple]
 
-## Personal Website V1
-Version 1 of my personal website.
-- Tags: WebDev
+## AWS Certified Solutions Architect – Professional (2021-2024)
+https://www.credly.com/badges/a30b95fd-6cef-473c-a016-1f61c31ca0f3
+- Tags: AWS
 - Badges:
-  - HTML [red]
-  - CSS [blue]
-- Buttons:
-  - Live Site [https://eldoraboo.github.io/v1]
+  - Specialty [purple]
 
-## Personal Website V2
+## AWS Certified DevOps Engineer – Professional (2021-2024)
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+- Tags: AWS
+- Badges:
+  - Professional [teal]
+
+## AWS Certified Developer Assoc. (2020-2023)
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+- Tags: AWS
+- Badges:
+  - Associate [blue]
+
+## AWS Certified Solutions Architect Assoc. (2020-2023)
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+- Tags: AWS
+- Badges:
+  - Associate [blue]
+
+## Cisco Certified Network Associate CyberOps(CCNA CyberOps)(2019-2023)
+https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+- Tags: CyberSec
+- Badges:
+  - Associate [green]
+
+## Datacamp Intermediate Python for Data Science
 Version 2 of my personal website.
-- Tags: WebDev
-- Badges:
-  - React.js [cyan]
-  - GraphQL [purple]
-- Buttons:
-  - Live Site [https://eldoraboo-v2.netlify.app]
-  - GitHub Repo [https://github.com/eldoraboo/eldora-gatsby-site]
-
-## Personal Website V3
-Version 3 of my personal website. (This site!)
-- Tags: WebDev
-- Badges:
-  - React.js [cyan]
-  - Chakra UI [teal]
-- Buttons:
-  - Live Site [https://eldoraboo.netlify.app]
-  - GitHub Repo [https://github.com/eldoraboo/portfolio-v3]
-
-## Online Resume
-My online resume based off Sencilla Theme.
-- Tags: WebDev
-- Badges:
-  - HTML [red]
-  - CSS [blue]
-- Buttons:
-  - Live Site [https://eldoraboo.github.io/]
-
-## Metabase
-Building a Business Intelligence System with BigQuery.
 - Tags: DataSci
 - Badges:
-  - SQL [gray]
-
-## Trello Workflow
-An automated workflow system to extract data from the Trello API using Python 3 & Postman.
-- Tags: DataSci
-- Badges:
-  - Python [yellow]
-
-## Auto Car Report
-An automated system built with Flask that generates excel spreadsheet reports.
-- Tags: DataSci
-- Badges:
-  - Python [yellow]
-- Buttons: []
+  - Python [cyan]

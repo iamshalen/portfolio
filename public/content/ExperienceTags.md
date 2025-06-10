@@ -1,4 +1,3 @@
-Work
+Professional
+Certs
 Education
-Teaching
-Other

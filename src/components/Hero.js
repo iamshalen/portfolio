@@ -13,10 +13,6 @@ import ProfileArray from "./ProfileArray";
 
 export default function Header({ color }) {
   const profile = ProfileArray();
-  const scrollToContact = () => {
-    const contactSection = document.querySelector("#contact");
-    contactSection.scrollIntoView({ behavior: "smooth" });
-  };
   const linkedin = () => {
     window.open(
                 `${profile.linkedin}`,
@@ -24,6 +20,9 @@ export default function Header({ color }) {
                 "noreferrer,noopener"
               );
   };
+  const openResume = () => {
+  window.open('/assets/Current-Resume.pdf', '_blank', 'noreferrer,noopener');
+};
   return (
     <>
       <Heading>
@@ -72,17 +71,17 @@ export default function Header({ color }) {
               _hover={{
                 bg: `${color}.500`,
               }}
-              onClick={linkedin}
+              onClick={openResume}
             >
-              Let's connect!
+              My Resume
             </Button>
             <Button
               variant={"link"}
               colorScheme={"blue"}
               size={"sm"}
-              onClick={scrollToContact}
+              onClick={linkedin}
             >
-              Contact Me
+              Lets get in touch!
             </Button>
             <Box>
               <Icon

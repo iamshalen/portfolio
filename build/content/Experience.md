@@ -1,106 +1,135 @@
 ## Freelance
-- *Coding Tutor & Full Stack Developer* | Nov'21 - Present
-- ![ma](../assets/duck.png)
-- Tags: Work, Teaching
+- *Masters Research* | Sep'24 - Present
+- ![ma](/portfolio/assets/bs.webp)
+- Tags: Teaching, Studying
 - Badges:
   - Full-Time [pink]
   - Education [yellow]
   - In Progress [orange]
 - List Items:
+  - Currently pursuing my Masters in Computer Science in-line with my passion of continued learning. 
 
-## Moody's Analytics
-- *Banking Analyst* | Jun'23 - Aug'23
-- ![ma](../assets/ma.jpeg)
+## Platform Engineer
+- *Trafigura Services* | Sep'23 - Sep'24
+- ![ma](/portfolio/assets/ma.jpeg)
+- Tags: Work
+- Badges:
+  - Permanent [blue]
+- List Items:
+  - Supported the ongoing design, development and management of an Trafigura's advanced Data Science and Engineering Analytics platform.
+  - Full ownership of solution designs; architecture design, solution development and implementation of AWS cloud solutions for adoption according to business needs including DevOps best practices.
+  - Migration of legacy systems/solutions to cloud native solution deployments.
+  - Support the data and analytics requirements of front office traders, research analysts and data scientists using latest machine learning innovations and methods.
+  - POC, MVP and full CICD implementation of AWS native solutions to solve business needs.
+  - Bi-directional sync implementation from On-prem shared drive to our S3 platform landing zone for near real time syncing of artifacts for data feed analysis and processing.
+  - AWS-XRay integration into platform for advanced data feed error analysis, diagnostics and troubleshooting.
+  - Redshift V2 editor platform implementation - introduced new tool for entire DSE team to transition from legacy method of querying data (DBeaver). Allowed for faster query execution, analysis, auditing amongst other copious productivity benefits for the team.
+  - Trafigura Network Arch Mapping - crafting of architectural diagrams mapping entire network flow of Trafigura including firewalls, VPNs, DX connections to AWS, DMZ zones and On-Prem connections. Provided indepth understanding of org-wide networking and collaboration with senior level IT. This gave a visual depiction for several stakeholders of diff levels ie. Data Eng, Data Scientists, Leads, IT Sec, etc.
+
+
+## Computer Science Dept. Advisory Board Mmember
+- *Data Analyst* | Jun'23 - Present
+- ![bs](/portfolio/assets/bs.webp)
+- Tags: Work
+- Badges:
+  - Advisory Board Role [blue]
+- List Items:
+  - Nominated and requested to serve on the University of Zululand's Computer Science Departmental Advisory Board as a member with respected knowledge and experience to help improve University programs, curriculum and delivery strategies as well as the following:
+  - To provide input and guidance concerning aspects related to the curriculum (including the admission and assessment requirements), external needs of programmes, professional profiles, relevance and research pointers.
+  - To contribute to the setting up of academic standards for the learning programmes concerned. 
+  - To provide external expert and end user input to ensure quality and standard in the delivery of programmes and projects.
+  - To advise on the professional profile of graduates and diplomats.
+  - To advise on new industry and professional trends and standards.
+  - To advise on continued professional development (CPD) of staff.
+  - To advise on availability and relevance of laboratory equipment and infrastructure required for all programmes and curriculum.
+  - To advise the University in the development of cooperative education/Work Integrated Learning partnerships.
+  - To receive comments and input on programme-specific and non-programme spec issues, from specialised internal parties and units dealing with quality, curriculum design and development, academic support and engagement.
+
+## Cloud Engineer (Lead)
+- *Standard Bank South Africa (SBSA)* | Jul'21 - Dec'22
+- ![ura](/portfolio/assets/ura.png)
+- Tags: Work
+- Badges:
+  - Permanent [blue]
+- List Items:
+  - Lead Cloud Engineer and Cloud Engineering feature owner for the deployment and migration of SBSA's Cloud native ATM solution, Renovite - poised to be SA's first. This was a Kubernetes based solution deployed on EKS using Terraform/Terragrunt and a Hybrid DNS setup. Tasked with also selecting and employing other AWS services according to business needs to faciltate solution deployment.
+  - Deployment of the solution, designing reference architecture, CICD pipelines and providing input to the DevOps team for the implementation of codified stacks to meet the needs of the applications.
+  - Providing guidance on most aspects of cloud infrastructure offerings including the design and implementation of highly-available, cost efficient, fault tolerant and scalable cloud systems.
+  - Includes delivery of multiple Cloud architecture patterns and implementations to drive customer outcomes.
+  - Analysing application portfolios, identifying dependencies and common infrastructure platform components and assessing migration feasibility.
+  - Integrating existing cloud infrastructure or network environment with the corporate infrastructure/data centre environment according the banks guardrails.
+  - Designing and implementing cloud solutions based on architectural best practices.
+  - Providing hands-on technical coaching to accelerate Cloud learning across the Cloud Engineering portfolio, providing expertise and showcasing the design and implementation of designs based on best practices acting as a catalyst for technical development across the team.
+  - Supporting a culture of continuous improvement and fostering innovation within the function and team.
+  - Collaborating with and influencing stakeholders across the IT Business Unit as well as Cloud Security to ensure that services offered are relevant and efficient.
+
+## Amazon Web Services(AWS)
+- *Data Scientist* | Sep'19 - Jun'21
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Work
+- Badges:
+  - Permanent [blue]
+- List Items:
+  - Formed part of the Deployment profile/team supporting 14 AWS Cloud services with a main focus but not limited to IaaC, Container and CI/CD related services.
+  - Experience working with +250 AWS customers including AWS partners on critical and complex customer problems including production level issues that span multiple AWS services.
+  - Troubleshooting application deployments, recreating customer deployment issues, diving deep to resolve problems at their root, looking for failure patterns and suggesting fixes.
+  - Applying advanced troubleshooting techniques to provide unique solutions to customers' individual needs.
+  - Partnering with internal AWS teams to help reproduce and resolve customer issues.
+  - Leveraging customer support experience to provide feedback to internal AWS teams for service improvement.
+  - Driving customer communication during critical events and production deployments.
+
+
+## CSIR(Council for Scientific and Industrial Research)
+- *Data Scientist* | Jun'18 - Jul'18
+- ![ri](/portfolio/assets/ri.jpg)
 - Tags: Work
 - Badges:
   - Internship [blue]
 - List Items:
-  - Worked in an advisory role, primarily focusing on risk modeling, and assessing risk profiles for prominent banks in the APAC region.
-  - Conducted single-factor analysis and multi-factor analysis to develop a robust model for analyzing banking transactions.
-  - Managed and processed over 2 million rows of transactional data through an efficient ETL pipeline.
-  - Utilized R and Python to execute advanced statistical models and perform data-cleaning tasks.
+  - Tasked to analyze hospital shift data using various python data science libraries to determine the current state of hospital shift allocation and develop a system to ensure fair/equitable staff shift allocation.
+  - Researched Machine Learning models to optimize shift allocation.
+  - Developed a Dashboard for the client visualizing insights extrapolated from the data acquired and analysed.
+  - https://dsideweb.github.io/people/2018-2019/
 
-## Beansprout
-- *Data Analyst* | Mar'23 - May'23
-- ![bs](../assets/bs.jpeg)
-- Tags: Work
-- Badges:
-  - Internship [blue]
-- List Items:
-  - Developed and implemented a user-based recommendation engine from scratch, providing personalized article recommendations to users.
-  - Established a comprehensive dashboard to track and visualize user activity, effectively monitoring key metrics and trends.
-
-## Urban Redevelopment Authority
-- *Data Engineer* | Jan'23 - Mar'23
-- ![ura](../assets/ura.png)
-- Tags: Work
-- Badges:
-  - Internship [blue]
-- List Items:
-  - Piloted the integration of a optimization modeling tool (Python) into URA's existing systems with Docker and Node.js.
-  - Performed data analytics on movement of traffic and implemented NLP (Natural Language Processing) on entity categorization of feedback.
-  - Employed port forwarding to securely expose the necessary ports for communication between the front-end and the optimization model.
-
-## Lumens Auto
-- *Data Scientist* | Sep'22 - Dec'22
-- ![la](../assets/la.jpeg)
-- Tags: Work
-- Badges:
-  - Internship [blue]
-- List Items:
-  - Utilized a range of APIs including Postman, Trello, and CarTrack to extract data and perform data analytics on datasets with up to 300K rows.
-  - Built a comprehensive business intelligence system on Metabase, providing insightful data visualisations for stakeholders.
-  - Implemented automated ETL workflows with Python and BigQuery SQL, saving up to 730 man-hours annually.
-
-## RIMM Sustainability
-- *Data Scientist* | May'22 - Jul'22
-- ![ri](../assets/ri.png)
-- Tags: Work
-- Badges:
-  - Internship [blue]
-- List Items:
-  - Designed and implemented a Python API for sequence labeling with spaCy models, resulting in improved accuracy and efficiency of NLP tasks.
-  - Leveraged open-source tools such as Doccano and HuggingFace to build an optimized BERT (Bidirectional Encoder Representations from Transformer) model.
-  - Came up with a production ready interface by the end of internship period and presented the product to the CTO directly.
-
-## Roboto Coding Academy
-- *Technology Educator* | Nov'20 - Jul'23
-- ![ro](../assets/ro.png)
-- Tags: Teaching
+## BSc. Hons. Computer Science
+- *University of Zululandr* | Feb'19 - Nov'19
+- ![ro](/portfolio/assets/bs.webp)
+- Tags: Education
 - Badges:
   - Education [yellow]
-  - In Progress [orange]
 - List Items:
-  - Teach and conduct coding, STEM and technology related classes for up to a class of 30 students (including schools like Assumption English School).
-  - Oversee and train students in preparation of coding & robotics competitions (in collaboration with DSTA, DSO National Laboratories) that held at a national level.
-  - Provided support for students outside of curriculum hours for them to embark on personal projects like a landing page for their school's CCA (Xinmin Secondary).
+  - Distinctions included:
+  - Advanced Distributed Database Techniques and Security for WS and SOA. 
+  - Software Defined Networking Theory and Application.
+  - Advanced Software and Distributed-Computing Techniques.
 
-## Google Developer Student Clubs
-- *Software Engineer* | Sep'22 - Present
-- ![gg](../assets/gg.png)
-- Tags: Other
+## BSc. Computer Science and Mathematics
+- *Software Engineer* | Feb'15 - Nov'18
+- ![gg](/portfolio/assets/bs.webp)
+- Tags: Education
 - Badges:
-  - Project [green]
-  - In Progress [orange]
+  - Completed [green]
 - List Items:
-  - Designed and developed an intuitive admin portal with a user-friendly interface, providing an efficient way to manage course materials and users.
-  - Adopted front-end frameworks such as React.js and Chakra UI to create a highly responsive and engaging user interface.
-  - Engineered a full-stack API with Node.js and GraphQL, providing robust and scalable solutions for delivering online education.
+  - Distinctions included:
+  - Data structures and Algorithms.
+  - Computer Communications and Networks.
+  - Database and Information Management.
+  - Dynamical Systems and mathematical modelling.
+  - Further Discrete Mathematics.
+  - and 4 others. 
 
-## Construcshare
-- *Front-End Developer* | Feb'23 - Apr'23
-- ![cs](../assets/cs.jpeg)
-- Tags: Other
-- Badges:
-  - Project [green]
-- List Items:
-  - Developing an e-commerce simulation model for construction materials.
-  - Working on an interface to run, tweak and visualize the model.
 
-## NUS Statistics & Data Science Society
-- *Vice-Director of Marketing* | Dec'21 - May'22
-- ![sd](../assets/sd.jpeg)
-- Tags: Other
+## National Senior Certificate (NSC)
+- *John Ross College* | Jan'10 - Dec'14
+- ![cs](/portfolio/assets/cs.jpeg)
+- Tags: Education
 - Badges:
-  - Project [green]
+  - Completed [green]
 - List Items:
+  - Distinctions included:
+  - English
+  - Accounting
+  - Life Sciences
+  - Life Orientation
+  - Mathematics (78%)
+  - Afrikaans First Additional Language (77%)
