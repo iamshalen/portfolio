@@ -57,6 +57,10 @@ export default function Nav({ color }) {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
+  const openResume = () => {
+  window.open('/portfolio/assets/Current-Resume.pdf', '_blank', 'noreferrer,noopener');
+  };
+
   const changeScroll = () =>
     document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
       ? setScroll(true)
@@ -109,6 +113,9 @@ export default function Nav({ color }) {
                 </Button>
                 <Button variant="ghost" onClick={scrollToContact}>
                   Contact
+                </Button>
+                <Button variant="ghost" onClick={openResume}>
+                  CV/Resume
                 </Button>
               </>
             ) : (
