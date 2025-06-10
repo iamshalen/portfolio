@@ -33,7 +33,7 @@ Android application as part of my Final Year Undergraduate project conceptualizi
 - ![sharenstay](/portfolio/assets/sharenstay.png)
 - Tags: MobileDev
 - Badges:
-  - Android(Java) [yellow]
+  - Java [yellow]
   - Firebase [gray]
 - Buttons:
   - GitHub Repo [https://github.com/eldoraboo/it2002-sharenstay]
@@ -43,7 +43,7 @@ First Aid Exam Papers is an Android app designed to support Final Year High scho
 - ![tps_site](/portfolio/assets/tps_site.png)
 - Tags: MobileDev
 - Badges:
-  - Android(Java)[cyan]
+  - Java [cyan]
   - Firebase [teal]
 - Buttons:
   - GitHub Repo [https://github.com/eldoraboo/tps-construction]
@@ -53,7 +53,7 @@ Unizulu Mobile is an Android application built to streamline and redefine the st
 - ![scales_io](/portfolio/assets/scales_io.png)
 - Tags: MobileDev
 - Badges:
-  - Android(Java) [cyan]
+  - Java [cyan]
   - SQL [teal]
   - REST APIs [purple]
 - Buttons:
