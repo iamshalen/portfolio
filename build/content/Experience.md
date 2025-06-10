@@ -1,7 +1,7 @@
 ## Freelance
 - *Masters Research* | Sep'24 - Present
 - ![ma](/portfolio/assets/bs.webp)
-- Tags: Teaching, Studying
+- Tags: Professional
 - Badges:
   - Full-Time [pink]
   - Education [yellow]
@@ -12,7 +12,7 @@
 ## Platform Engineer
 - *Trafigura Services* | Sep'23 - Sep'24
 - ![ma](/portfolio/assets/ma.jpeg)
-- Tags: Work
+- Tags: Professional
 - Badges:
   - Permanent [blue]
 - List Items:
@@ -24,13 +24,13 @@
   - Bi-directional sync implementation from On-prem shared drive to our S3 platform landing zone for near real time syncing of artifacts for data feed analysis and processing.
   - AWS-XRay integration into platform for advanced data feed error analysis, diagnostics and troubleshooting.
   - Redshift V2 editor platform implementation - introduced new tool for entire DSE team to transition from legacy method of querying data (DBeaver). Allowed for faster query execution, analysis, auditing amongst other copious productivity benefits for the team.
-  - Trafigura Network Arch Mapping - crafting of architectural diagrams mapping entire network flow of Trafigura including firewalls, VPNs, DX connections to AWS, DMZ zones and On-Prem connections. Provided indepth understanding of org-wide networking and collaboration with senior level IT. This gave a visual depiction for several stakeholders of diff levels ie. Data Eng, Data Scientists, Leads, IT Sec, etc.
+  - Trafigura NetProfessional Arch Mapping - crafting of architectural diagrams mapping entire network flow of Trafigura including firewalls, VPNs, DX connections to AWS, DMZ zones and On-Prem connections. Provided indepth understanding of org-wide networking and collaboration with senior level IT. This gave a visual depiction for several stakeholders of diff levels ie. Data Eng, Data Scientists, Leads, IT Sec, etc.
 
 
 ## Computer Science Dept. Advisory Board Mmember
 - *Data Analyst* | Jun'23 - Present
 - ![bs](/portfolio/assets/bs.webp)
-- Tags: Work
+- Tags: Professional
 - Badges:
   - Advisory Board Role [blue]
 - List Items:
@@ -48,7 +48,7 @@
 ## Cloud Engineer (Lead)
 - *Standard Bank South Africa (SBSA)* | Jul'21 - Dec'22
 - ![ura](/portfolio/assets/ura.png)
-- Tags: Work
+- Tags: Professional
 - Badges:
   - Permanent [blue]
 - List Items:
@@ -66,7 +66,7 @@
 ## Amazon Web Services(AWS)
 - *Data Scientist* | Sep'19 - Jun'21
 - ![la](/portfolio/assets/la.jpeg)
-- Tags: Work
+- Tags: Professional
 - Badges:
   - Permanent [blue]
 - List Items:
@@ -82,7 +82,7 @@
 ## CSIR(Council for Scientific and Industrial Research)
 - *Data Scientist* | Jun'18 - Jul'18
 - ![ri](/portfolio/assets/ri.jpg)
-- Tags: Work
+- Tags: Professional
 - Badges:
   - Internship [blue]
 - List Items:
@@ -133,3 +133,98 @@
   - Life Orientation
   - Mathematics (78%)
   - Afrikaans First Additional Language (77%)
+
+## ISC² Certified in Cybersecurity (CC)
+- *2023 - 2026* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed [green]
+  - CyberSecurity [orange]
+- List Items:
+  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+
+## AWS Certified Security - Speciality
+- *2022 - 2025* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed [green]
+  - Cloud Security [cyan]
+  - Specialty Cert [purple]
+- List Items:
+  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+
+
+## AWS Certified Data Analytics Specialy
+- *2022 - 2025* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed [green]
+  - Cloud Data Analytics [cyan]
+  - Specialty Cert [purple]
+- List Items:
+  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+
+## AWS Certified Solutions Architect – Professional 
+- *2021 - 2024* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Renewal-In-Progress [orange]
+  - Professional Cert [teal]
+  - Cloud Architecture [green]
+- List Items:
+  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+
+## AWS Certified DevOps Engineer – Professional 
+- *2021 - 2024* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed - Expired [teal]
+  - Professional Cert [oran]
+  - DevOps [green]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+
+## AWS Certified Developer Assoc.
+- *2020 - 2023* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed - Expired [teal]
+  - DevOps [green]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+
+## AWS Certified Solutions Architect Assoc.
+- *2020 - 2023* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed - Expired [teal]
+  - Cloud Architecture [orange]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+
+## Cisco Certified Network Associate CyberOps(CCNA CyberOps)
+- *2019 - 2023* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed - Expired [teal]
+  - CyberSecurity [purple]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+
+## Datacamp Intermediate Python for Data Science
+- *2019 - 2023* | 
+- ![la](/portfolio/assets/la.jpeg)
+- Tags: Certs
+- Badges:
+  - Completed [green]
+  - Python [purple]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0

@@ -63,8 +63,8 @@
   - Supporting a culture of continuous improvement and fostering innovation within the function and team.
   - Collaborating with and influencing stakeholders across the IT Business Unit as well as Cloud Security to ensure that services offered are relevant and efficient.
 
-## Amazon Web Services(AWS)
-- *Data Scientist* | Sep'19 - Jun'21
+## Cloud Support Associate (DevOps/Deployment profile)
+- *Amazon Web Services(AWS)* | Sep'19 - Jun'21
 - ![la](/portfolio/assets/la.jpeg)
 - Tags: Professional
 - Badges:
@@ -92,7 +92,7 @@
   - https://dsideweb.github.io/people/2018-2019/
 
 ## BSc. Hons. Computer Science
-- *University of Zululandr* | Feb'19 - Nov'19
+- *University of Zululand* | Feb'19 - Nov'19
 - ![ro](/portfolio/assets/bs.webp)
 - Tags: Education
 - Badges:
@@ -104,7 +104,7 @@
   - Advanced Software and Distributed-Computing Techniques.
 
 ## BSc. Computer Science and Mathematics
-- *Software Engineer* | Feb'15 - Nov'18
+- *University of Zululand* | Feb'15 - Nov'18
 - ![gg](/portfolio/assets/bs.webp)
 - Tags: Education
 - Badges:
@@ -121,7 +121,7 @@
 
 ## National Senior Certificate (NSC)
 - *John Ross College* | Jan'10 - Dec'14
-- ![cs](/portfolio/assets/cs.jpeg)
+- ![jrc](/portfolio/assets/jrc.jpg)
 - Tags: Education
 - Badges:
   - Completed [green]
@@ -136,7 +136,7 @@
 
 ## ISC² Certified in Cybersecurity (CC)
 - *2023 - 2026* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![isc2](/portfolio/assets/isc2.png)
 - Tags: Certs
 - Badges:
   - Completed [green]
@@ -146,7 +146,7 @@
 
 ## AWS Certified Security - Speciality
 - *2022 - 2025* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![aws-certified-security-specialty](/portfolio/assets/aws-certified-security-specialty.png)
 - Tags: Certs
 - Badges:
   - Completed [green]
@@ -158,7 +158,7 @@
 
 ## AWS Certified Data Analytics Specialy
 - *2022 - 2025* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![aws-certified-data-analytics-specialty](/portfolio/assets/aws-certified-data-analytics-specialty.png)
 - Tags: Certs
 - Badges:
   - Completed [green]
@@ -169,7 +169,7 @@
 
 ## AWS Certified Solutions Architect – Professional 
 - *2021 - 2024* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![aws-certified-solutions-architect-professional](/portfolio/assets/aws-certified-solutions-architect-professional.png)
 - Tags: Certs
 - Badges:
   - Renewal-In-Progress [orange]
@@ -180,7 +180,7 @@
 
 ## AWS Certified DevOps Engineer – Professional 
 - *2021 - 2024* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![aws-certified-devops-engineer-professional](/portfolio/assets/aws-certified-devops-engineer-professional.png)
 - Tags: Certs
 - Badges:
   - Completed - Expired [teal]
@@ -191,7 +191,7 @@
 
 ## AWS Certified Developer Assoc.
 - *2020 - 2023* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![aws-certified-developer-associate](/portfolio/assets/aws-certified-developer-associate.png)
 - Tags: Certs
 - Badges:
   - Completed - Expired [teal]
@@ -201,7 +201,7 @@
 
 ## AWS Certified Solutions Architect Assoc.
 - *2020 - 2023* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![aws-certified-solutions-architect-associate](/portfolio/assets/aws-certified-solutions-architect-associate.png)
 - Tags: Certs
 - Badges:
   - Completed - Expired [teal]
@@ -211,7 +211,7 @@
 
 ## Cisco Certified Network Associate CyberOps(CCNA CyberOps)
 - *2019 - 2023* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![cyberops_associate](/portfolio/assets/cyberops_associate.png)
 - Tags: Certs
 - Badges:
   - Completed - Expired [teal]
@@ -221,7 +221,7 @@
 
 ## Datacamp Intermediate Python for Data Science
 - *2019 - 2023* | 
-- ![la](/portfolio/assets/la.jpeg)
+- ![datacamp](/portfolio/assets/datacamp.png)
 - Tags: Certs
 - Badges:
   - Completed [green]

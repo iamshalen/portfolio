@@ -1,13 +1,13 @@
 ## Header
-- Hi, my name is Shalen!
-- I'm a multi-faceted Cloud Architect and Engineer
-- I architect and deploy a plethora of solutions applying as much as I possibly can. 
+- Hi there, my name is SHALEN!
+- I'm a Senior Lead Cloud Architect and Platforms Engineer._
+- I architect and deploy versatile solutions, honing my skill-set accrued over +7 year tenure of professionally engineering software of varying scales.
 
 ## About
-Hello! My name is Shalen. I specialize in Cloud Architecture and Engineering, with a passion for building scalable, secure, and efficient systems. My expertise spans across designing, deploying, and optimizing cloud infrastructures for diverse business needs. I am committed to continuous learning and enjoy collaborating on projects that push the boundaries of innovation.
+Hi there! I'm Shalen and I specialize in Cloud Architecture and Engineering with a passion for building massive scalable, secure and efficient systems. My professional expertise currently lies in Cloud Solution Architecture implementation and deployment in large organizations - designing, deploying and optimizing Cloud-Native and Hybrid/On-Prem infrastructures for diverse Business and IT needs. I'm committed to continuous learning and enjoy collaborating on projects that push the boundaries of innovation.
 
 ## Contact
-I'm always open to new opportunities and collaborations. If you'd like to discuss a project, role, or partnership, please feel free to reach out via any socials below! I will get back to you as soon as I can!
+I'm always open to new opportunities and collaborations. If you'd like to discuss a project, role or partnership, feel free to reach out via any of my socials below! I'll get back to you as soon as I can!
 - LinkedIn: https://linkedin.com/in/shalennaidoo
 - GitHub: https://github.com/iamshalen
 - Email: iamshalen@gmail.com
