@@ -60,3 +60,4 @@ Version 2 of my personal website.
 - Tags: DataSci
 - Badges:
   - Python [cyan]
+  
