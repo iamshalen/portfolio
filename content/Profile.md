@@ -1,6 +1,6 @@
 ## Header
 - Hi, my name is Shalen!
-- I'm a Senior Lead Cloud Architect and Platforms Engineer
+- I'm a Senior Lead Cloud Architect and Platforms Engineer._
 - I architect and deploy versatile solutions honing my skill-set accrued over +7 years of professionally engineering software of varying scale.
 
 ## About
