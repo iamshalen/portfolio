@@ -52,8 +52,7 @@
 - Badges:
   - Permanent [blue]
 - List Items:
-  - Lead Cloud Engineer and Cloud Engineering feature owner for the deployment and migration of SBSA's Cloud native ATM solution, Renovite - poised to be SA's first. This was a Kubernetes based solution deployed on EKS
-using Terraform/Terragrunt and a Hybrid DNS setup. Tasked with also selecting and employing other AWS services according to business needs to faciltate solution deployment.
+  - Lead Cloud Engineer and Cloud Engineering feature owner for the deployment and migration of SBSA's Cloud native ATM solution, Renovite - poised to be SA's first. This was a Kubernetes based solution deployed on EKS using Terraform/Terragrunt and a Hybrid DNS setup. Tasked with also selecting and employing other AWS services according to business needs to faciltate solution deployment.
   - Deployment of the solution, designing reference architecture, CICD pipelines and providing input to the DevOps team for the implementation of codified stacks to meet the needs of the applications.
   - Providing guidance on most aspects of cloud infrastructure offerings including the design and implementation of highly-available, cost efficient, fault tolerant and scalable cloud systems.
   - Includes delivery of multiple Cloud architecture patterns and implementations to drive customer outcomes.
