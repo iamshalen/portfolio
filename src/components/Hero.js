@@ -21,7 +21,7 @@ export default function Header({ color }) {
               );
   };
   const openResume = () => {
-  window.open('/assets/Current-Resume.pdf', '_blank', 'noreferrer,noopener');
+  window.open('/portfolio/assets/Current-Resume.pdf', '_blank', 'noreferrer,noopener');
 };
   return (
     <>
