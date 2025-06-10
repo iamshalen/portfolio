@@ -23,7 +23,7 @@ This DevOps based project utilizes CodeCommit, CodeBuild and CodePipeline to cre
 - ![music](/portfolio/assets/music.png)
 - Tags: DevOps
 - Badges:
-  - AWS: S3, DynamoDB, CloudWatch, CodeBuild, CodePipeline [yellow]
+  - AWS [yellow]
   - Terraform [blue]
 - Buttons:
   - GitHub Repo [https://github.com/ST4248-AY2223-B1]
@@ -55,6 +55,6 @@ Unizulu Mobile is an Android application built to streamline and redefine the st
 - Badges:
   - Android(Java) [cyan]
   - SQL [teal]
-  - REST APIs
+  - REST APIs [purple]
 - Buttons:
   - GitHub Repo [https://github.com/eldoraboo/scales-io]
