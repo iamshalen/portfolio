@@ -1,7 +1,7 @@
 ## Header
 - Hi there, my name is SHALEN!
 - I'm a Senior Lead Cloud Architect and Platforms Engineer._
-- I architect and deploy versatile solutions, honing my skill-set accrued over +7 year tenure of professionally engineering software of varying scales.
+- I architect and deploy versatile solutions, honing my skill-set accrued over my +7 years tenure professionally engineering software of varying scales.
 
 ## About
 Hi there! I'm Shalen and I specialize in Cloud Architecture and Engineering with a passion for building massive scalable, secure and efficient systems. My professional expertise currently lies in Cloud Solution Architecture implementation and deployment in large organizations - designing, deploying and optimizing Cloud-Native and Hybrid/On-Prem infrastructures for diverse Business and IT needs. I'm committed to continuous learning and enjoy collaborating on projects that push the boundaries of innovation.
