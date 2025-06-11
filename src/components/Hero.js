@@ -73,7 +73,7 @@ export default function Header({ color }) {
               }}
               onClick={openResume}
             >
-               View my CV/Resume
+               My CV/Resume
             </Button>
             <Button
               variant={"link"}
