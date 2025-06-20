@@ -1,5 +1,5 @@
-## Freelance
-- *Masters Research* | Sep'24 - Present
+## Academia Focus
+- *Masters Research - Pending*  | Sep'24 - Present
 - ![ma](/portfolio/assets/bs.webp)
 - Tags: Professional
 - Badges:
@@ -7,7 +7,7 @@
   - Education [yellow]
   - In Progress [orange]
 - List Items:
-  - Currently pursuing my Masters in Computer Science in-line with my passion of continued learning. 
+  - Focusing on prep for my Masters (MSc.) in Computer Science in-line with my passion of continued learning and technical leadership. 
 
 ## Platform Engineer
 - *Trafigura Services* | Sep'23 - Sep'24
@@ -18,17 +18,17 @@
 - List Items:
   - Supported the ongoing design, development and management of an Trafigura's advanced Data Science and Engineering Analytics platform.
   - Full ownership of solution designs; architecture design, solution development and implementation of AWS cloud solutions for adoption according to business needs including DevOps best practices.
-  - Migration of legacy systems/solutions to cloud native solution deployments.
-  - Support the data and analytics requirements of front office traders, research analysts and data scientists using latest machine learning innovations and methods.
-  - POC, MVP and full CICD implementation of AWS native solutions to solve business needs.
-  - Bi-directional sync implementation from On-prem shared drive to our S3 platform landing zone for near real time syncing of artifacts for data feed analysis and processing.
-  - AWS-XRay integration into platform for advanced data feed error analysis, diagnostics and troubleshooting.
-  - Redshift V2 editor platform implementation - introduced new tool for entire DSE team to transition from legacy method of querying data (DBeaver). Allowed for faster query execution, analysis, auditing amongst other copious productivity benefits for the team.
-  - Trafigura NetProfessional Arch Mapping - crafting of architectural diagrams mapping entire network flow of Trafigura including firewalls, VPNs, DX connections to AWS, DMZ zones and On-Prem connections. Provided indepth understanding of org-wide networking and collaboration with senior level IT. This gave a visual depiction for several stakeholders of diff levels ie. Data Eng, Data Scientists, Leads, IT Sec, etc.
+  - Full ownership of solution design and end-to-end implementation, employing DevOps best practices and modern CI/CD pipelines.
+  - Successfully migrated legacy analytics systems to cloud-native deployments, improving scalability and reducing operational overhead.
+  - Delivered critical data solutions to front-office traders, research analysts, and data scientists—integrating the latest machine learning tools.
+  - Designed and implemented a bi-directional real-time sync between on-premises and AWS S3 for artifact ingestion and analytics.
+  - Integrated AWS X-Ray for advanced platform diagnostics, reducing mean time to resolution (MTTR) for data feed issues by 30%.
+  - Introduced the Redshift V2 editor, enabling the analytics team to transition from legacy querying tools, boosting productivity and auditing capability.
+  - Produced comprehensive architectural diagrams detailing network flows (firewalls, VPNs, DX, DMZs), facilitating cross-team collaboration and stakeholder alignment.
 
 
-## Computer Science Dept. Advisory Board Mmember
-- *Data Analyst* | Jun'23 - Present
+## Computer Science Dept. Advisory Board Member
+- *Advisory Board Member* | Jun'23 - Present
 - ![bs](/portfolio/assets/bs.webp)
 - Tags: Professional
 - Badges:
@@ -45,7 +45,7 @@
   - To advise the University in the development of cooperative education/Work Integrated Learning partnerships.
   - To receive comments and input on programme-specific and non-programme spec issues, from specialised internal parties and units dealing with quality, curriculum design and development, academic support and engagement.
 
-## Cloud Engineer (Lead)
+## Cloud Engineering (Lead)
 - *Standard Bank South Africa (SBSA)* | Jul'21 - Dec'22
 - ![ura](/portfolio/assets/ura.png)
 - Tags: Professional
@@ -80,7 +80,7 @@
 
 
 ## CSIR(Council for Scientific and Industrial Research)
-- *Data Scientist* | Jun'18 - Jul'18
+- *Data Scientist - Intern* | Jun'18 - Jul'18
 - ![ri](/portfolio/assets/ri.jpg)
 - Tags: Professional
 - Badges:
@@ -155,7 +155,7 @@
   - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
 
 
-## AWS Certified Data Analytics Specialy
+## AWS Certified Data Analytics Speciality
 - *2022 - 2025* | 
 - ![aws-certified-data-analytics-specialty](/portfolio/assets/aws-certified-data-analytics-specialty.png)
 - Tags: Certs
