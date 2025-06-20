@@ -109,7 +109,7 @@ export default function Nav({ color }) {
                   Experience
                 </Button>
                 <Button variant="ghost" onClick={scrollToProjects}>
-                  Key Projects
+                  Projects
                 </Button>
                 <Button variant="ghost" onClick={scrollToContact}>
                   Contact
