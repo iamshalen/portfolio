@@ -152,8 +152,17 @@
   - Valid [green]
   - Cloud Security [purple]
 - List Items:
-  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0 
 
+## AWS Certified Advanced Networking - Speciality
+- *2022 - 2025* | 
+- ![aws-certified-networking-specialty](/portfolio/assets/aws-certified-advanced-networking-specialty.png)
+- Tags: Certs
+- Badges:
+  - Valid [green]
+  - Cloud Networking [cyan]
+- List Items:
+  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
 
 ## AWS Certified Data Analytics Speciality
 - *2022 - 2025* | 
@@ -163,7 +172,7 @@
   - Valid [green]
   - Cloud Data Analytics [pink]
 - List Items:
-  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+  - https://www.credly.com/badges/9f9b43b5-eb21-467a-a72f-06bfa3515b0c
 
 ## Datacamp Intermediate Python for Data Science
 - *2019 - 2023* | 
@@ -183,7 +192,7 @@
   - Renewal-Underway [orange]
   - Solution Arch [teal]
 - List Items:
-  - https://www.credly.com/badges/08f6ff71-feda-4262-8d23-ed13e97a6ce7
+  - https://www.credly.com/badges/a30b95fd-6cef-473c-a016-1f61c31ca0f3
 
 ## AWS Certified DevOps Engineer – Professional 
 - *2021 - 2024* | 
@@ -193,7 +202,7 @@
   - Completed-Expired [pink]
   - DevOps [green]
 - List Items:
-  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+  - https://www.credly.com/badges/74cb331e-e79d-4b85-a51c-d4cedc9b106c 
 
 ## AWS Certified Developer Assoc.
 - *2020 - 2023* | 
@@ -203,7 +212,7 @@
   - Completed-Expired [pink]
   - DevOps [green]
 - List Items:
-  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+  - https://www.credly.com/badges/7fb653c0-a13a-4104-bf61-1091c4313c98
 
 ## AWS Certified Solutions Architect Assoc.
 - *2020 - 2023* | 
@@ -213,7 +222,7 @@
   - Completed-Expired [pink]
   - Solutions Arch [orange]
 - List Items:
-  - https://www.credly.com/badges/b58019c7-a9cf-4e81-aa85-9b39b95cd2a0
+  - https://www.credly.com/badges/ffa72d4c-9f47-40c1-b567-1fe08c1ffb12
 
 ## Cisco Certified Network Associate CyberOps(CCNA CyberOps)
 - *2019 - 2023* | 
