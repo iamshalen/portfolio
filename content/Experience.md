@@ -1,5 +1,5 @@
 ## Academia Focus
-- *Masters Research - Pending*  | Sep'24 - Present
+- *Masters Research - Pending*  | Mar'25 - Present
 - ![ma](/portfolio/assets/bs.webp)
 - Tags: Professional
 - Badges:
